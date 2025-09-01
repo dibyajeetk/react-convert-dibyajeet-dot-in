@@ -1,9 +1,8 @@
-import "./App.css";
+import "./css/App.css";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import "bootstrap-icons/font/bootstrap-icons.css";
 import { Routes, Route } from "react-router-dom";
 
 function App() {

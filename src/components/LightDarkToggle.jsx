@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function LightDarkToggle() {
   const DarkModeToggle = () => {
