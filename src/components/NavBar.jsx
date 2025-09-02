@@ -1,5 +1,5 @@
 import dibyajeetLogo from "../assets/logo.svg";
-import LightDarkToggle from "./LightDarkToggle";
+import ToggleButton from "./ToggleButton";
 import { Link } from "react-router-dom";
 import "../css/NavBar.css";
 
@@ -20,7 +20,7 @@ function NavBar() {
         </Link>
       </div>
       <div className="mode-toggle">
-        <LightDarkToggle />
+        <ToggleButton />
       </div>
     </nav>
   );
