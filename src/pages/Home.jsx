@@ -1,4 +1,6 @@
 import "../css/Home.css";
+import ProjectCard from "../components/ProjectCard";
+
 function Home() {
   return (
     <>
@@ -6,8 +8,8 @@ function Home() {
         <span className="text-col">
           <h1 className="greet-text">Hey there! I'm Dibyajeet</h1>
           <p className="greet-content">
-            I build the kind of experience I wished existed as a user, crafted
-            to be intuitive and empowering.
+            Product Designer crafting experiences that are intuitive and
+            empowering for everyone.
           </p>
           <span className="status-badge">
             <span className="dot"></span>
@@ -22,7 +24,9 @@ function Home() {
           />
         </span>
       </div>
-      <div className="project-grid"></div>
+      <div className="project-grid">
+        <ProjectCard />
+      </div>
     </>
   );
 }

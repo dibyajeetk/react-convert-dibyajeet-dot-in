@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 5rem;
+}
+.emphasis {
+  font-weight: 600;
+  margin-right: 0.5rem;
+  color: var(--text-color-light-secondary);
+  text-transform: capitalize;
+}

@@ -2,8 +2,13 @@ import dibyajeetLogo from "../assets/logo.svg";
 import ToggleButton from "./ToggleButton";
 import { Link } from "react-router-dom";
 import "../css/NavBar.css";
+import React, { useState } from "react";
 
 function NavBar() {
+  const [isActive, setActive] = useState(false);
+  const handleActiveState = () => {
+    setActive(!isActive);
+  };
   return (
     <nav className="nav-bar">
       <div className="logo">
