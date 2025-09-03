@@ -9,7 +9,7 @@
   /* Colors */
   /* Surface */
   --surface-color-primary: hsla(0, 0%, 96%, 1);
-  --surface-color-secondary: hsla(0, 0%, 98%, 1);
+  --surface-color-secondary: hsla(0, 0%, 100%, 1);
   --surface-color-turnary: hsla(0, 0%, 85%, 1);
   --surface-color-quaternary: hsla(0, 0%, 93%, 1); /* background tags */
 
@@ -61,15 +61,16 @@
   --surface-color-primary: hsla(220, 10%, 15%, 1);
   --surface-color-secondary: hsla(220, 10%, 10%, 1);
   --surface-color-turnary: hsla(220, 10%, 20%, 1);
+  --surface-color-quaternary: hsla(220, 10%, 25%, 1); /* background tags */
 
   /* Text Color */
   --text-color-primary: hsla(0, 0%, 100%, 1);
   --text-color-secondary: hsla(220, 20%, 75%, 1);
-  --text-color-tertiary: hsla(220, 20%, 45%, 1);
+  --text-color-tertiary: hsla(220, 20%, 60%, 1);
 
   /* Border Color and Separatiors */
   --border-color-primary: hsla(220, 10%, 40%, 1);
-  --border-color-secondary: hsla(220, 10%, 60%, 1);
+  --border-color-secondary: hsla(220, 10%, 50%, 1);
 
   /* Link Color */
   --link-active: var(--text-color-primary);

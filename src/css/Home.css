@@ -3,6 +3,7 @@
   flex-direction: row;
   gap: 1rem;
   margin-top: 2rem;
+  max-width: 960px;
 }
 .text-col {
   flex: 1 1 0;
@@ -56,7 +57,7 @@
 
 .project-grid {
   margin-top: var(--spacing-xl);
-  width: 100%;
+  width: 80%;
   height: auto;
   overflow-x: hidden;
   display: grid;

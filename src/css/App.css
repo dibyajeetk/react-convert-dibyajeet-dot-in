@@ -1,7 +1,11 @@
 .main-content {
   margin: 0 auto;
-  max-width: 960px;
+  /* max-width: 960px; */
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .app {

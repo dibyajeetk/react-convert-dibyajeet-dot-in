@@ -3,9 +3,10 @@
   overflow: hidden;
   aspect-ratio: 1.618 / 1;
 
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 
 .project-description {
@@ -44,10 +45,10 @@
 }
 
 .hover-state {
-  display: none;
   padding: var(--spacing-m);
 }
 .cover-image {
   object-fit: cover;
   width: 100%;
+  height: 100%;
 }
