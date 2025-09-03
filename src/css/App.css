@@ -3,3 +3,16 @@
   max-width: 960px;
   overflow-x: hidden;
 }
+
+.app {
+  font-family: "Lato", sans-serif;
+  font-size: var(--font-size-m);
+  color-scheme: light dark;
+  background-color: var(--surface-color-primary);
+  color: var(--text-color-primary);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}

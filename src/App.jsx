@@ -7,7 +7,7 @@ import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <div className="app" data-theme="dark">
       <NavBar />
       <main className="main-content">
         <Routes>

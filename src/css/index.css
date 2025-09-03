@@ -5,30 +5,38 @@
 }
 :root {
   /* Variables Declaration */
+
   /* Colors */
-
   /* Surface */
-  --surface-color-light-primary: hsla(0, 0%, 96%, 1);
-  --surface-color-light-secondary: hsla(0, 0%, 98%, 1);
-  --surface-color-light-turnary: hsla(0, 0%, 85%, 1);
-  --surface-color-light-quaternary: hsla(0, 0%, 93%, 1); /* background tags */
-  --surface-color-dark-primary: hsla(220, 10%, 20%, 1);
+  --surface-color-primary: hsla(0, 0%, 96%, 1);
+  --surface-color-secondary: hsla(0, 0%, 98%, 1);
+  --surface-color-turnary: hsla(0, 0%, 85%, 1);
+  --surface-color-quaternary: hsla(0, 0%, 93%, 1); /* background tags */
 
-  /* Border Color */
-  --border-color-light-primary: hsla(0, 0%, 70%, 1);
-  --border-color-light-secondary: hsla(0, 0%, 60%, 1);
+  /* Border Color and Separatiors */
+  --border-color-primary: hsla(0, 0%, 70%, 1);
+  --border-color-secondary: hsla(0, 0%, 60%, 1);
 
   /* Text Color */
-  --text-color-light-primary: hsla(220, 20%, 10%, 1);
-  --text-color-light-secondary: hsla(220, 20%, 50%, 1);
-  --text-color-light-tertiary: hsla(220, 20%, 45%, 1);
+  --text-color-primary: hsla(220, 20%, 10%, 1);
+  --text-color-secondary: hsla(220, 20%, 50%, 1);
+  --text-color-tertiary: hsla(220, 20%, 45%, 1);
+
+  /* Link Color */
+  --link-active: var(--text-color-primary);
+  --link-hover: var(--brand-blue-500);
+  --link-default: var(--green-500);
 
   /* Semantic Color */
   --yellow-100: hsla(44, 100%, 90%, 1);
   --yellow-300: hsla(44, 100%, 70%, 1);
   --yellow-500: hsla(44, 100%, 50%, 1);
-  --yellow-700: hsla(44, 100%, 30%, 1);
+  --yellow-700: hsla(44, 100%, 25%, 1);
+  --brand-blue-300: hsla(220, 70%, 70%, 1);
+  --brand-blue-400: hsla(220, 70%, 60%, 1);
   --brand-blue-500: hsla(220, 70%, 50%, 1);
+  --brand-blue-600: hsla(220, 70%, 40%, 1);
+  --green-400: hsla(148, 25%, 60%, 1);
   --green-500: hsla(148, 25%, 50%, 1);
 
   /* Font Sizes */
@@ -48,15 +56,23 @@
   --spacing-l: 3rem;
   --spacing-xl: 6rem;
 }
+[data-theme="dark"] {
+  /* Surface Color */
+  --surface-color-primary: hsla(220, 10%, 20%, 1);
+  --surface-color-secondary: hsla(220, 10%, 15%, 1);
+  --surface-color-turnary: hsla(220, 10%, 35%, 1);
 
-body {
-  font-family: "Lato", sans-serif;
-  font-size: var(--font-size-m);
-  color-scheme: light dark;
-  background-color: var(--surface-color-light-primary);
-  color: var(--text-color-light-primary);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* Text Color */
+  --text-color-primary: hsla(0, 0%, 100%, 1);
+  --text-color-secondary: hsla(220, 20%, 75%, 1);
+  --text-color-tertiary: hsla(220, 20%, 45%, 1);
+
+  /* Border Color and Separatiors */
+  --border-color-primary: hsla(220, 10%, 40%, 1);
+  --border-color-secondary: hsla(220, 10%, 60%, 1);
+
+  /* Link Color */
+  --link-active: var(--text-color-primary);
+  --link-hover: var(--brand-blue-400);
+  --link-default: var(--green-400);
 }

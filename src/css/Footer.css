@@ -6,6 +6,6 @@ footer {
 .emphasis {
   font-weight: 600;
   margin-right: 0.5rem;
-  color: var(--text-color-light-secondary);
+  color: var(--text-color-secondary);
   text-transform: capitalize;
 }
