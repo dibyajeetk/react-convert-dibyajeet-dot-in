@@ -4,11 +4,13 @@ import Home from "./pages/Home";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
+import React, { useState } from "react";
 
 function App() {
+  const [isDark, setIsDark] = useState(true);
   return (
-    <div className="app" data-theme="dark">
-      <NavBar />
+    <div className="app" data-theme={isDark ? "dark" : "light"}>
+      <NavBar isDark={isDark} setIsDark={setIsDark} />
       <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />

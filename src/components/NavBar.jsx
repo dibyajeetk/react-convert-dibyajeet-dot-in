@@ -2,13 +2,8 @@ import dibyajeetLogo from "../assets/logo.svg";
 import ToggleButton from "./ToggleButton";
 import { Link } from "react-router-dom";
 import "../css/NavBar.css";
-import React, { useState } from "react";
 
-function NavBar() {
-  const [isActive, setActive] = useState(false);
-  const handleActiveState = () => {
-    setActive(!isActive);
-  };
+function NavBar({ isDark, setIsDark }) {
   return (
     <nav className="nav-bar">
       <div className="logo">
@@ -25,7 +20,7 @@ function NavBar() {
         </Link>
       </div>
       <div className="mode-toggle">
-        <ToggleButton />
+        <ToggleButton isDark={isDark} setIsDark={setIsDark} />
       </div>
     </nav>
   );
