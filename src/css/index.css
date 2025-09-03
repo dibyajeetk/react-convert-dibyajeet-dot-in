@@ -58,9 +58,9 @@
 }
 [data-theme="dark"] {
   /* Surface Color */
-  --surface-color-primary: hsla(220, 10%, 20%, 1);
-  --surface-color-secondary: hsla(220, 10%, 15%, 1);
-  --surface-color-turnary: hsla(220, 10%, 35%, 1);
+  --surface-color-primary: hsla(220, 10%, 15%, 1);
+  --surface-color-secondary: hsla(220, 10%, 10%, 1);
+  --surface-color-turnary: hsla(220, 10%, 20%, 1);
 
   /* Text Color */
   --text-color-primary: hsla(0, 0%, 100%, 1);
