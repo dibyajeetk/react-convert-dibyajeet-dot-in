@@ -24,8 +24,8 @@
 
   /* Link Color */
   --link-active: var(--text-color-primary);
-  --link-hover: var(--brand-blue-500);
-  --link-default: var(--green-500);
+  --link-hover: var(--brand-blue-600);
+  --link-default: var(--green-700);
 
   /* Semantic Color */
   --yellow-100: hsla(44, 100%, 90%, 1);
@@ -38,6 +38,7 @@
   --brand-blue-600: hsla(220, 70%, 40%, 1);
   --green-400: hsla(148, 25%, 60%, 1);
   --green-500: hsla(148, 25%, 50%, 1);
+  --green-700: hsla(148, 25%, 35%, 1);
 
   /* Font Sizes */
   --font-size-sm: 14px;

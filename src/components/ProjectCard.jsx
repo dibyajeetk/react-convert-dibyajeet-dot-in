@@ -1,7 +1,7 @@
 import "../css/ProjectCard.css";
 import React, { useState } from "react";
 
-function ProjectCard() {
+function ProjectCard({ title, desc, tags = [] }) {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div
@@ -18,16 +18,16 @@ function ProjectCard() {
           />
         ) : (
           <>
-            <h2 className="project-title">Admin Settings Redesign</h2>
-            <p className="project-description">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
-              laboriosam a deleniti magni sunt nostrum.
-            </p>
+            <h2 className="project-title">{title}</h2>
+            <p className="project-description">{desc}</p>
             <div className="tags-container">
-              <span className="tag">
-                <i className="bi bi-hash sm-icon"></i>
-                <p className="tag-text">ui design</p>
-              </span>
+              {tags &&
+                tags.map((tag, index) => (
+                  <span key={index} className="tag">
+                    <i className="bi bi-hash sm-icon"></i>
+                    <span className="tag-text">{tag}</span>
+                  </span>
+                ))}
             </div>
           </>
         )}

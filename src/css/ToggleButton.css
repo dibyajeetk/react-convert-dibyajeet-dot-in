@@ -8,6 +8,7 @@
   width: auto;
   background-color: var(--surface-color-turnary);
   border: 2px solid var(--border-color-primary);
+  cursor: pointer;
 }
 .mode {
   display: inline-flex;

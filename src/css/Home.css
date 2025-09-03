@@ -57,7 +57,8 @@
 
 .project-grid {
   margin-top: var(--spacing-xl);
-  width: 80%;
+  margin-left: 5rem;
+  margin-right: 5rem;
   height: auto;
   overflow-x: hidden;
   display: grid;
