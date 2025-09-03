@@ -7,13 +7,13 @@ function Home() {
       id: 1,
       title: "Admin Settings Redesign",
       desc: "My approach to the settings experience for Recruit CRM",
-      tags: ["UI Design", "Accessibility", "HealthTech"],
+      tags: ["Visual Design", "UI", "UX"],
     },
     {
       id: 2,
       title: "Target Report - for Recruit CRM",
       desc: "A comprehensive Report module for Recruitment Leaders to assess productivity.",
-      tags: ["UI Design", "Accessibility", "HealthTech"],
+      tags: ["Product Design"],
     },
   ];
   return (

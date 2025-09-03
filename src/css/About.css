@@ -1,0 +1,24 @@
+.context-col {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 960px;
+  gap: 2rem;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-text > h2 {
+  color: var(--text-color-secondary);
+  font-family: "Lora", serif;
+}
+
+.context-col > img {
+  object-fit: fill;
+  aspect-ratio: 4 / 5;
+  width: 440px;
+}
