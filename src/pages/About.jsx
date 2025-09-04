@@ -2,8 +2,8 @@ import "../css/About.css";
 
 function About() {
   return (
-    <div>
-      <div className="context-col">
+    <>
+      <section className="about-context">
         <div className="about-text">
           <h2>I am passionate about pixels, products, and people.</h2>
           <p>
@@ -19,15 +19,23 @@ function About() {
             different views and disciplines where I believe a lot of learning,
             valuable mistakes, and true innovation happens.
           </p>
+          <button>download resume</button>
         </div>
         <img
           src="./src/assets/display-photo.jpg"
           alt=""
-          width="600px"
-          height="auto"
+          width="auto"
+          height="500px"
         />
-      </div>
-    </div>
+      </section>
+      <section className="hobbies">
+        <h2>When I am not working</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas,
+          deleniti? Odio quod ipsam sequi molestias.
+        </p>
+      </section>
+    </>
   );
 }
 
