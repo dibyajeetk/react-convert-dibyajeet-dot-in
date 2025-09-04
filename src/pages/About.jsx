@@ -28,7 +28,7 @@ function About() {
           <div className="buttons-container">
             <button className="secondary-button">
               <i class="bi bi-box-arrow-in-down"></i>
-              <p>resume</p>
+              <span>resume</span>
             </button>
             <button className="secondary-button">
               <i className="bi bi-linkedin"></i>
@@ -56,7 +56,7 @@ function About() {
               alt="Off-road trail exploration at Burundi Dam at Jharkhand, India"
             />
             <p className="caption">
-              Off-road trail exploration at Burundi Dam at Jharkhand, India
+              Off-road trail exploration at Burundi Dam. Jharkhand, India
             </p>
           </div>
           <div className="frames">

@@ -52,8 +52,8 @@
   display: flex;
   gap: var(--spacing-xs);
   background-color: transparent;
-  border: 2px solid var(--brand-blue-500);
-  color: hsla(0, 0%, 100%, 1);
+  border: 2px solid var(--brand-blue-600);
+  color: var(--text-color-primary);
   padding: 0.5rem 1rem;
   font-family: "Lato", sans-serif;
   font-size: var(--font-size-m);

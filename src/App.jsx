@@ -1,6 +1,7 @@
 import "./css/App.css";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import TargetReport from "./pages/projects/TargetReport";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/target-report" element={<TargetReport />} />
         </Routes>
       </main>
       <Footer />

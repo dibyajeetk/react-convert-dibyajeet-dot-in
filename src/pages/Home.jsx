@@ -1,5 +1,6 @@
 import "../css/Home.css";
 import ProjectCard from "../components/ProjectCard";
+import { Link } from "react-router-dom";
 
 function Home() {
   const projects = [
@@ -8,12 +9,14 @@ function Home() {
       title: "Admin Settings Redesign",
       desc: "My approach to the settings experience for Recruit CRM",
       tags: ["Visual Design", "UI", "UX"],
+      path: "/targe",
     },
     {
       id: 2,
       title: "Target Report - for Recruit CRM",
       desc: "A comprehensive Report module for Recruitment Leaders to assess productivity.",
       tags: ["Product Design"],
+      path: "/target-report",
     },
   ];
   return (
@@ -40,12 +43,18 @@ function Home() {
       </div>
       <div className="project-grid">
         {projects.map((project) => (
-          <ProjectCard
+          <Link
             key={project.id}
-            title={project.title}
-            desc={project.desc}
-            tags={project.tags}
-          />
+            to={project.path}
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <ProjectCard
+              key={project.id}
+              title={project.title}
+              desc={project.desc}
+              tags={project.tags}
+            />
+          </Link>
         ))}
       </div>
     </>
