@@ -1,7 +1,7 @@
 import "./css/App.css";
 import About from "./pages/About";
 import Home from "./pages/Home";
-import TargetReport from "./pages/projects/TargetReport";
+import TargetReport from "./pages/projects/targetReport/TargetReport";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";

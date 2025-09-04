@@ -1,7 +1,7 @@
 import "../css/ProjectCard.css";
 import React, { useState } from "react";
 
-function ProjectCard({ title, desc, tags = [] }) {
+function ProjectCard({ title, desc, tags = [], coverImage }) {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div
@@ -11,11 +11,7 @@ function ProjectCard({ title, desc, tags = [] }) {
     >
       <div className={isHovered ? "hover-state" : "default-state"}>
         {!isHovered ? (
-          <img
-            className="cover-image"
-            src="./src/assets/test-cover.png"
-            alt="project title"
-          />
+          <img className="cover-image" src={coverImage} alt={title} />
         ) : (
           <>
             <h2 className="project-title">{title}</h2>

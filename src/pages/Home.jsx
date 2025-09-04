@@ -2,20 +2,32 @@ import "../css/Home.css";
 import ProjectCard from "../components/ProjectCard";
 import { Link } from "react-router-dom";
 
+import TargetReportCover from "./projects/targetReport/cover.jpg";
+
 function Home() {
   const projects = [
     {
       id: 1,
-      title: "Admin Settings Redesign",
-      desc: "My approach to the settings experience for Recruit CRM",
-      tags: ["Visual Design", "UI", "UX"],
+      title: "GymSync: Your Gym Companion!",
+      desc: "GymSync is a concept fitness progress tracker app that transforms daily consistency into motivation, helping you stay focused on your goals, streaks, and habits",
+      tags: ["Product Design", "Branding", "Design System"],
+      coverImage: TargetReportCover,
       path: "/targe",
     },
     {
       id: 2,
+      title: "Admin Settings Redesign",
+      desc: "My approach to the settings experience for Recruit CRM",
+      tags: ["Visual Design", "UI", "UX"],
+      coverImage: TargetReportCover,
+      path: "/targe",
+    },
+    {
+      id: 3,
       title: "Target Report - for Recruit CRM",
       desc: "A comprehensive Report module for Recruitment Leaders to assess productivity.",
       tags: ["Product Design"],
+      coverImage: TargetReportCover,
       path: "/target-report",
     },
   ];
@@ -53,6 +65,7 @@ function Home() {
               title={project.title}
               desc={project.desc}
               tags={project.tags}
+              coverImage={project.coverImage}
             />
           </Link>
         ))}
