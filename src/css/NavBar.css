@@ -23,6 +23,14 @@
   gap: 1.5rem;
 }
 
+.nav-link.active {
+  color: var(--text-color-primary);
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+}
+
 .navbar-links > a {
   font-size: 20px;
   line-height: 1.5;

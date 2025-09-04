@@ -49,7 +49,7 @@
 }
 
 .hover-state {
-  padding: var(--spacing-m);
+  padding: var(--spacing-l);
 }
 .cover-image {
   object-fit: cover;

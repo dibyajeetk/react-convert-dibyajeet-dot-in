@@ -1,9 +1,10 @@
 import dibyajeetLogo from "../assets/logo.svg";
 import ToggleButton from "./ToggleButton";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "../css/NavBar.css";
 
 function NavBar({ isDark, setIsDark }) {
+  const location = useLocation();
   return (
     <nav className="nav-bar">
       <div className="logo">
@@ -12,10 +13,18 @@ function NavBar({ isDark, setIsDark }) {
         </Link>
       </div>
       <div className="navbar-links">
-        <Link to="/" className="nav-link">
+        <Link
+          to="/"
+          className={`nav-link ${location.pathname === "/" ? "active" : ""}`}
+        >
           Work
         </Link>
-        <Link to="/about" className="nav-link">
+        <Link
+          to="/about"
+          className={`nav-link ${
+            location.pathname === "/about" ? "active" : ""
+          }`}
+        >
           About
         </Link>
       </div>
