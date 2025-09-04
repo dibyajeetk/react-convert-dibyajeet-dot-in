@@ -40,6 +40,9 @@
   --green-500: hsla(148, 25%, 50%, 1);
   --green-700: hsla(148, 25%, 35%, 1);
 
+  /* shadow */
+  --shadow-primary: hsla(220, 10%, 70%, 0.5);
+
   /* Font Sizes */
   --font-size-sm: 14px;
   --font-size-m: 17px; /*base Bont*/
@@ -64,6 +67,9 @@
   --surface-color-secondary: hsla(220, 10%, 10%, 1);
   --surface-color-turnary: hsla(220, 10%, 20%, 1);
   --surface-color-quaternary: hsla(220, 10%, 25%, 1); /* background tags */
+
+  /* Shadow */
+  --shadow-primary: hsla(220, 10%, 30%, 0.5);
 
   /* Text Color */
   --text-color-primary: hsla(0, 0%, 100%, 1);

@@ -14,6 +14,7 @@
 }
 
 .about-text > h2 {
+  font-size: var(--font-size-l);
   line-height: 1.2;
   font-family: "Lora", serif;
   margin-bottom: var(--spacing-s);
@@ -21,8 +22,8 @@
 
 .about-text > p {
   flex-grow: 1;
-  line-height: 1.7;
-  margin-bottom: var(--spacing-l);
+  line-height: 1.5;
+  margin-bottom: var(--spacing-s);
 }
 
 .about-context img {
@@ -30,14 +31,83 @@
   width: 50%;
 }
 
-button {
-  background-color: var(--brand-blue-500);
+.email {
+  font-size: var(--font-size-l);
+  margin-bottom: var(--spacing-s);
+  color: var(--yellow-500);
+}
+
+.email-address {
+  font-weight: 600;
+  margin-left: var(--spacing-xs);
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-s);
+}
+
+.secondary-button {
+  display: flex;
+  gap: var(--spacing-xs);
+  background-color: transparent;
+  border: 2px solid var(--brand-blue-500);
   color: hsla(0, 0%, 100%, 1);
-  border: none;
   padding: 0.5rem 1rem;
   font-family: "Lato", sans-serif;
   font-size: var(--font-size-m);
-  width: 50%;
   border-radius: var(--border-radius-s);
   text-transform: capitalize;
+  min-height: 40px;
+}
+
+.hobbies {
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  margin: var(--spacing-l) 0;
+}
+
+.hobbies > h2 {
+  font-size: var(--font-size-l);
+  line-height: 1.2;
+  font-family: "Lora", serif;
+  margin-bottom: var(--spacing-s);
+}
+
+.hobbies > p {
+  margin-bottom: var(--spacing-l);
+  line-height: 1.5;
+}
+.photos {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-s);
+}
+
+.frames {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--spacing-m);
+  gap: var(--spacing-s);
+
+  background-color: var(--surface-color-secondary);
+  box-shadow: 0 4px 2px var(--shadow-primary);
+}
+
+.frames > img {
+  flex: 1;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  width: 100%;
+}
+
+.caption {
+  font-size: var(--font-size-sm);
+  font-style: italic;
+  color: var(--text-color-secondary);
 }

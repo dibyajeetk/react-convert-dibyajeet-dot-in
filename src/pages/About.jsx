@@ -1,4 +1,5 @@
 import "../css/About.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 function About() {
   return (
@@ -19,7 +20,20 @@ function About() {
             different views and disciplines where I believe a lot of learning,
             valuable mistakes, and true innovation happens.
           </p>
-          <button>download resume</button>
+
+          <p className="email">
+            <i className="bi bi-envelope-fill"></i>
+            <span className="email-address">ux.dibyajeet@gmail.com</span>
+          </p>
+          <div className="buttons-container">
+            <button className="secondary-button">
+              <i class="bi bi-box-arrow-in-down"></i>
+              <p>resume</p>
+            </button>
+            <button className="secondary-button">
+              <i className="bi bi-linkedin"></i>
+            </button>
+          </div>
         </div>
         <img
           src="./src/assets/display-photo.jpg"
@@ -31,9 +45,37 @@ function About() {
       <section className="hobbies">
         <h2>When I am not working</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas,
-          deleniti? Odio quod ipsam sequi molestias.
+          I could be seen riding my motorcycle down the mountain roads.
+          Exploring nature help me wind down and meeting new people, exploring
+          diverse culture help me expand my knowledge.
         </p>
+        <div className="photos">
+          <div className="frames">
+            <img
+              src="./src/assets/moto-one.jpg"
+              alt="Off-road trail exploration at Burundi Dam at Jharkhand, India"
+            />
+            <p className="caption">
+              Off-road trail exploration at Burundi Dam at Jharkhand, India
+            </p>
+          </div>
+          <div className="frames">
+            <img src="./src/assets/moto-two.jpg" alt="Trip to Yuksom, Sikkim" />
+            <p className="caption">
+              1600 Kms ride from home to the wilderness of Sikkim, India.
+            </p>
+          </div>
+          <div className="frames">
+            <img
+              src="./src/assets/moto-three.jpg"
+              alt="Off-Road trail riding at Damodar River bank, Durgapur, India"
+            />
+            <p className="caption">
+              Practicing sand riding skills at the banks of Damodar River.
+              Durgapur, India
+            </p>
+          </div>
+        </div>
       </section>
     </>
   );
