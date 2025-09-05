@@ -46,8 +46,9 @@
   /* Font Sizes */
   --font-size-sm: 14px;
   --font-size-m: 17px; /*base Bont*/
-  --font-size-l: 30px;
-  --font-size-xl: 50px;
+  --font-size-l: 25px;
+  --font-size-xl: 30px;
+  --font-size-xxl: 50px;
 
   /* Border Radius */
   --border-radius-xs: 5px;

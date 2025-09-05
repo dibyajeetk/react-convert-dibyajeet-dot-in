@@ -1,0 +1,44 @@
+.project-info {
+  width: 960px;
+  margin-top: -2rem;
+  border: 2px solid var(--border-color-primary);
+  background-color: var(--surface-color-secondary);
+  border-radius: 1rem;
+  padding: 2rem;
+  z-index: 1;
+}
+
+.project-info > h2 {
+  font-family: "Lora", serif;
+  font-size: var(--font-size-xl);
+  margin-bottom: 1rem;
+}
+
+.strong-text {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-color-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+
+.data-row-info {
+  display: flex;
+  gap: 2rem;
+}
+.page-contents {
+  margin-top: 4rem;
+  width: 960px;
+}
+
+.main-info {
+  width: 60%;
+}
+.main-info > p {
+  line-height: 1.5;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

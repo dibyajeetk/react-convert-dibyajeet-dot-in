@@ -1,0 +1,42 @@
+.page-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-cover-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.headlines {
+  font-family: "Lora", serif;
+  font-size: var(--font-size-l);
+  margin-bottom: 1rem;
+  color: var(--text-color-secondary);
+}
+
+.text-block {
+  line-height: 1.5;
+}
+.two-col-text-block {
+  display: flex;
+  gap: 2rem;
+}
+
+.two-col-text-block > p {
+  flex: 1;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.single-col-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

@@ -1,0 +1,16 @@
+.comp-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-title {
+  font-family: "Lora", serif;
+  font-size: var(--font-size-l);
+  color: var(--text-color-secondary);
+}
+
+.accordion {
+  border: 2px solid var(--border-color-primary);
+  padding: 1rem;
+  box-shadow: 0 4px 4px var(--shadow-primary);
+}

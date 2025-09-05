@@ -14,7 +14,7 @@
 }
 
 .about-text > h2 {
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   line-height: 1.2;
   font-family: "Lora", serif;
   margin-bottom: var(--spacing-s);
@@ -32,7 +32,7 @@
 }
 
 .email {
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   margin-bottom: var(--spacing-s);
   color: var(--yellow-500);
 }
@@ -66,11 +66,11 @@
   max-width: 960px;
   display: flex;
   flex-direction: column;
-  margin: var(--spacing-l) 0;
+  margin: var(--spacing-xl) 0;
 }
 
 .hobbies > h2 {
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   line-height: 1.2;
   font-family: "Lora", serif;
   margin-bottom: var(--spacing-s);
