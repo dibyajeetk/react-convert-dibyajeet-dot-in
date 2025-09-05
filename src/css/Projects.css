@@ -14,17 +14,37 @@
 
 .headlines {
   font-family: "Lora", serif;
-  font-size: var(--font-size-l);
-  margin-bottom: 1rem;
+  font-size: var(--font-size-xl);
+  margin-bottom: 2rem;
   color: var(--text-color-secondary);
+  text-align: center;
 }
 
-.text-block {
-  line-height: 1.5;
-}
 .two-col-text-block {
   display: flex;
   gap: 2rem;
+}
+
+.subheader {
+  font-size: var(--font-size-m);
+  font-weight: 600;
+}
+.text-block {
+  flex: 1;
+  line-height: 1.7;
+}
+
+.text-block-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.text-block-row > p {
+  flex: 2;
+}
+.text-block-row > h3 {
+  flex: 1;
 }
 
 .two-col-text-block > p {
@@ -36,7 +56,36 @@
 }
 
 .single-col-text-block {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.single-col-text-block-sm {
+  flex: 2;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+.highlighted {
+  font-weight: 600;
+  color: var(--text-color-secondary);
+}
+
+.text-block-emphasis {
+  background-color: var(--yellow-100);
+  color: hsla(220, 10%, 10%, 1);
+  padding: 1rem;
+  border: 2px solid var(--yellow-500);
+  border-radius: 0.5rem;
+  line-height: 1.7;
+}
+
+.ico {
+  color: var(--yellow-500);
+  margin-right: 4px;
+}
+
+.caselet-images {
+  width: 100%;
 }
