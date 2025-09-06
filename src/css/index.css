@@ -47,6 +47,13 @@
   --green-400: hsla(148, 25%, 60%, 1);
   --green-500: hsla(148, 25%, 50%, 1);
   --green-700: hsla(148, 25%, 35%, 1);
+  --neutral-100: hsla(1, 0%, 90%, 1);
+  --neutral-200: hsla(1, 0%, 80%, 1);
+  --neutral-300: hsla(1, 0%, 70%, 1);
+  --neutral-400: hsla(1, 0%, 60%, 1);
+  --neutral-alpha-400: hsla(1, 0%, 60%, 0.5);
+  --neutral-600: hsla(1, 0%, 40%, 1);
+  --neutral-alpha-600: hsla(1, 0%, 40%, 0.5);
 
   /* shadow */
   --shadow-primary: hsla(220, 10%, 70%, 0.5);

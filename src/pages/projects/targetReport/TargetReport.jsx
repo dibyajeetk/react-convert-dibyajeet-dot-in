@@ -5,6 +5,11 @@ import ProjectHighlites from "../../../components/ProjectHighlights";
 import coverImg from "./cover.jpg";
 import whiteboardTargetReport from "./whiteboarding.jpg";
 import teamPerformanceReportGif from "./team-performance-report.gif";
+import explorationA from "./exploration-1.jpg";
+import explorationB from "./exploration-2.jpg";
+import explorationC from "./exploration-3.jpg";
+import navigationGif from "./navigation.gif";
+import listViewGif from "./list-view.gif";
 
 function TargetReport() {
   const projectData = {
@@ -14,19 +19,24 @@ function TargetReport() {
     role: "UX Designer",
     duration: "February - March, 2024",
   };
-  const slides = [
+  const earlyExplorations = [
     {
-      url: "https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
-      title: "test",
+      url: explorationA,
+      title: "Report View Exploration - 1",
     },
     {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPIfiGgUML8G3ZqsNLHfaCnZK3I5g4tJabQ&s",
-      title: "test2",
+      url: explorationB,
+      title: "Report View Exploration - 2",
     },
     {
-      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPIfiGgUML8G3ZqsNLHfaCnZK3I5g4tJabQ&s",
-      title: "test3",
+      url: explorationC,
+      title: "Report View Exploration - 3",
     },
+  ];
+  const TargetManagementImages = [
+    { url: navigationGif, title: "Final screens - navigate to Target KPIs" },
+    { url: listViewGif, title: "Final screens - create new target" },
+    { url: listViewGif, title: "Final screens - list view of all targets" },
   ];
   return (
     <>
@@ -288,16 +298,69 @@ function TargetReport() {
         </section>
         <section className="section">
           <p className="caption">
-            <strong>Image 3:</strong> Early Design Explorations
+            <strong>Image Slide:</strong> Early Design Explorations
           </p>
-          <ImageSlider slides={slides} />
-          <img
-            className="caselet-images"
-            src={teamPerformanceReportGif}
-            alt="Team Performance report"
-          />
+          <ImageSlider slides={earlyExplorations} />
         </section>
         <div className="break"></div>
+
+        <section className="section">
+          <span className="text-block-row">
+            <span className="header-block">
+              <p className="caption-big">Finalising Design</p>
+              <h3 className="sub-header">Target KPIs Management</h3>
+            </span>
+            <ol>
+              <li>
+                Created <strong>Empty State</strong> when there are no records
+              </li>
+              <li>
+                Designed <strong>Create Target Modal</strong> with necessary
+                fields
+              </li>
+              <li>
+                Worked on <strong>List View</strong> to show case all Target
+                Records
+              </li>
+            </ol>
+          </span>
+        </section>
+        <section className="section">
+          <p className="caption">
+            <strong>Image Slide 2:</strong> Final Design - Target KPIs
+            Management
+          </p>
+          <ImageSlider slides={TargetManagementImages} />
+        </section>
+
+        <section className="section">
+          <span className="text-block-row">
+            <span className="header-block">
+              <p className="caption-big">Finalising Design</p>
+              <h3 className="sub-header">Target Report Dashboard</h3>
+            </span>
+            <ol>
+              <li>
+                Created <strong>Empty State</strong> when there are no records
+              </li>
+              <li>
+                Designed <strong>Create Target Modal</strong> with necessary
+                fields
+              </li>
+              <li>
+                Worked on <strong>List View</strong> to show case all Target
+                Records
+              </li>
+            </ol>
+          </span>
+        </section>
+        <section className="section">
+          <p className="caption">
+            <strong>Image Slide 2:</strong> Final Design - Target KPIs
+            Management
+          </p>
+          <ImageSlider slides={TargetManagementImages} />
+        </section>
 
         {/* <Accordion title="Read Details" /> */}
       </div>
