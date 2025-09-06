@@ -361,13 +361,26 @@ function TargetReport() {
         <section className="section">
           <span className="text-block-row">
             <h3 className="sub-header">Project Outcomes</h3>
-            <p className="text-block">
-              The Target Reports module was a huge success. We even landed a
-              major 100-seat client because of it, and now our sales team is
-              actively using it as a key differentiator in their pitches. It
-              really shows that we built something valuable that's making real
-              business impact.
-            </p>
+            <span className="single-col-text-block-sm">
+              <div className="achievement-banner">
+                <div className="icon-container">
+                  <i className="bi bi-trophy-fill xl-icon"></i>
+                </div>
+                <span className="content">
+                  <p className="achvmnt-header">BUSINESS IMPACT UNLOCKED</p>
+                  <p className="achvmnt-body">
+                    Contributed to a 100-seat deal and made "Target Reports" a
+                    key sales differentiator.
+                  </p>
+                </span>
+              </div>
+              <p className="text-block">
+                The Target Reports module was a huge success, and now our sales
+                team is actively using it as a key differentiator in their
+                pitches. It really shows that we built something valuable that's
+                making real business impact.
+              </p>
+            </span>
           </span>
         </section>
 

@@ -156,3 +156,48 @@ li {
 .spacer-lg {
   min-height: 10rem;
 }
+
+.icon-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--yellow-500);
+  border-radius: 50%;
+  border: 2px solid hsla(1, 0%, 100%, 1);
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.xl-icon {
+  color: var(--yellow-700);
+  font-size: 32px;
+}
+
+.achievement-banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: var(--yellow-100);
+  border-radius: 0.5rem;
+  padding: 2rem 3rem;
+  border: 2px solid var(--yellow-300);
+}
+
+.achvmnt-header {
+  color: var(--yellow-650);
+  font-weight: 800;
+  font-size: var(--font-size-m);
+}
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.achvmnt-body {
+  color: hsla(220, 10%, 15%, 1);
+  font-size: var(--font-size-l);
+}
