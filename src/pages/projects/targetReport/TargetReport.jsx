@@ -14,6 +14,20 @@ function TargetReport() {
     role: "UX Designer",
     duration: "February - March, 2024",
   };
+  const slides = [
+    {
+      url: "https://images.unsplash.com/photo-1526779259212-939e64788e3c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
+      title: "test",
+    },
+    {
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPIfiGgUML8G3ZqsNLHfaCnZK3I5g4tJabQ&s",
+      title: "test2",
+    },
+    {
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUPIfiGgUML8G3ZqsNLHfaCnZK3I5g4tJabQ&s",
+      title: "test3",
+    },
+  ];
   return (
     <>
       <div className="page-header">
@@ -276,7 +290,7 @@ function TargetReport() {
           <p className="caption">
             <strong>Image 3:</strong> Early Design Explorations
           </p>
-          <ImageSlider />
+          <ImageSlider slides={slides} />
           <img
             className="caselet-images"
             src={teamPerformanceReportGif}

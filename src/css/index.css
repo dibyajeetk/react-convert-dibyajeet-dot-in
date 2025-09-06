@@ -15,6 +15,7 @@
 
   /* Surface Alpha Color */
   --surface-color-turnary-alpha: hsla(0, 0%, 85%, 0.2);
+  --surface-color-secondary-alpha: hsla(0, 0%, 100%, 0.35);
 
   /* Border Color and Separatiors */
   --border-color-primary: hsla(0, 0%, 70%, 1);
