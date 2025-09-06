@@ -9,6 +9,7 @@ import explorationA from "./exploration-1.jpg";
 import explorationB from "./exploration-2.jpg";
 import explorationC from "./exploration-3.jpg";
 import navigationGif from "./navigation.gif";
+import createTargetGif from "./create-target.gif";
 import listViewGif from "./list-view.gif";
 
 function TargetReport() {
@@ -35,7 +36,7 @@ function TargetReport() {
   ];
   const TargetManagementImages = [
     { url: navigationGif, title: "Final screens - navigate to Target KPIs" },
-    { url: listViewGif, title: "Final screens - create new target" },
+    { url: createTargetGif, title: "Final screens - create new target" },
     { url: listViewGif, title: "Final screens - list view of all targets" },
   ];
   return (
@@ -272,30 +273,7 @@ function TargetReport() {
             alt="Team Performance report"
           />
         </section>
-        <section className="section">
-          <span className="text-block-row">
-            <h3 className="sub-header">Design Challenges</h3>
-            <span className="single-col-text-block-sm">
-              <ol>
-                <li>
-                  Recruit CRM lacks a unified design system. This has resulted
-                  in inconsistencies in colors and layout for the same component
-                  throughout the application, making it difficult to establish a
-                  standard.
-                </li>
-                <li>
-                  When I was working on the Target Reports project, one of the
-                  biggest challenges was figuring out how to show multiple KPIs
-                  for teams and individuals all at once. Since our other report
-                  modules already had their own design rules, it was tough to
-                  get the charts to look right. On top of that, most competitors
-                  were only ever showing one KPI at a time, so I really had to
-                  come up with some new, creative ways to solve this.
-                </li>
-              </ol>
-            </span>
-          </span>
-        </section>
+
         <section className="section">
           <p className="caption">
             <strong>Image Slide:</strong> Early Design Explorations
@@ -307,22 +285,30 @@ function TargetReport() {
         <section className="section">
           <span className="text-block-row">
             <span className="header-block">
-              <p className="caption-big">Finalising Design</p>
+              <p className="caption-big">Finalising Design - 1</p>
               <h3 className="sub-header">Target KPIs Management</h3>
             </span>
-            <ol>
-              <li>
-                Created <strong>Empty State</strong> when there are no records
-              </li>
-              <li>
-                Designed <strong>Create Target Modal</strong> with necessary
-                fields
-              </li>
-              <li>
-                Worked on <strong>List View</strong> to show case all Target
-                Records
-              </li>
-            </ol>
+            <span className="single-col-text-block-sm">
+              <p className="text-block">
+                Originally, I thought the reports module would be the best entry
+                point for this feature. However, to accommodate the need for
+                access controls since some roles shouldn't see these reports, it
+                made more sense to keep it within the Admin Settings.
+              </p>
+              <ul>
+                <li>
+                  Created <strong>Empty State</strong> when there are no records
+                </li>
+                <li>
+                  Designed <strong>Create Target Modal</strong> with necessary
+                  fields
+                </li>
+                <li>
+                  Worked on <strong>List View</strong> to show case all Target
+                  Records
+                </li>
+              </ul>
+            </span>
           </span>
         </section>
         <section className="section">
@@ -336,30 +322,83 @@ function TargetReport() {
         <section className="section">
           <span className="text-block-row">
             <span className="header-block">
-              <p className="caption-big">Finalising Design</p>
+              <p className="caption-big">Finalising Design - 2</p>
               <h3 className="sub-header">Target Report Dashboard</h3>
             </span>
-            <ol>
-              <li>
-                Created <strong>Empty State</strong> when there are no records
-              </li>
-              <li>
-                Designed <strong>Create Target Modal</strong> with necessary
-                fields
-              </li>
-              <li>
-                Worked on <strong>List View</strong> to show case all Target
-                Records
-              </li>
-            </ol>
+            <span className="single-col-text-block-sm">
+              <p className="text-block">
+                A major challenge for the Target Reports project was visualizing
+                multiple KPIs at once for both teams and individuals. Our
+                existing design system didn't have a good way to handle this,
+                and most competitors were only showing one KPI at a time. This
+                meant I had to create a new approach to data visualization that
+                still felt consistent with our products design language.
+              </p>
+              <ul>
+                <li>
+                  Modeled <strong>Target Report Dashboard</strong> based on the
+                  existing reports design
+                </li>
+                <li>
+                  To handle the possibility of a single target having up to 32
+                  KPIs, I designed the charts as expandable cards. This allows
+                  users to get a high-level view and then expand a specific
+                  chart for a better look when they need to.
+                </li>
+              </ul>
+            </span>
           </span>
         </section>
         <section className="section">
           <p className="caption">
-            <strong>Image Slide 2:</strong> Final Design - Target KPIs
-            Management
+            <strong>Image Slide 4:</strong> Final Design - Target Reports View
           </p>
           <ImageSlider slides={TargetManagementImages} />
+        </section>
+
+        <div className="break"></div>
+
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Project Outcomes</h3>
+            <p className="text-block">
+              The Target Reports module was a huge success. We even landed a
+              major 100-seat client because of it, and now our sales team is
+              actively using it as a key differentiator in their pitches. It
+              really shows that we built something valuable that's making real
+              business impact.
+            </p>
+          </span>
+        </section>
+
+        <div className="break"></div>
+
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Takeaways</h3>
+            <span className="single-col-text-block-sm">
+              <p className="text-block">
+                This project was a wild ride, and my first real taste of
+                building a complex product. I had to quickly learn to embrace a
+                fast-paced environment without the safety net of a design system
+                or a senior mentor.
+              </p>
+              <p className="text-block">
+                It was all about being an executionist and taking a proactive
+                approach. Since I wasn't able to have direct user interactions,
+                my weekly stand-ups with the CEO became crucial, helping me
+                build a strong understanding of our users' perspectives.
+              </p>
+              <p className="text-block">
+                I learned that sometimes, a Lean UX process is the way to go.
+                It's tough for users to give solid feedback on something they
+                haven't seen, so it's better to build a real MVP and iterate.
+                The experience of painstakingly testing and learning user
+                behavior gave me a deep understanding of what our users really
+                need.
+              </p>
+            </span>
+          </span>
         </section>
 
         {/* <Accordion title="Read Details" /> */}
