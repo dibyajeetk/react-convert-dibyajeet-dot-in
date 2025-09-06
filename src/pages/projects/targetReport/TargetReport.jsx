@@ -1,7 +1,9 @@
 import Accordion from "../../../components/Accordion";
+import ImageSlider from "../../../components/ImageSlider";
 import "../../../css/Projects.css";
 import ProjectHighlites from "../../../components/ProjectHighlights";
 import coverImg from "./cover.jpg";
+import whiteboardTargetReport from "./whiteboarding.jpg";
 import teamPerformanceReportGif from "./team-performance-report.gif";
 
 function TargetReport() {
@@ -90,33 +92,200 @@ function TargetReport() {
                 <span className="highlighted">Team Performance Report</span>,
                 designed to help recruitment leaders track team performance and
                 target achievements. We have observed that recruitment leaders
-                are performing a lot of manual work and repeated data entry, and
-                are saving data in external spreadsheets for comparision which
-                is causing a significant time and effort sink and is leading to
-                inaccurate reporting and a lack of real-time insights.
+                are performing a lot of manual work including saving data in
+                external spreadsheets for comparision which is causing a
+                significant time and effort sink and is leading to inaccurate
+                reporting and a lack of real-time insights.
               </p>
               <p className="text-block-emphasis">
                 <i className="bi bi-exclamation-octagon-fill ico"></i>
                 <strong>The Challenge: </strong>
                 How might we streamline the target tracking workflow so that our
-                customers are more successful?
+                customers spend less time on administrative tasks and more time
+                on actual recruitment work?
               </p>
             </span>
           </span>
         </section>
         <section className="section">
+          <p className="caption">
+            <strong>Image 1:</strong> Showcasing how Team Performance Reports
+            work
+          </p>
           <img
             className="caselet-images"
             src={teamPerformanceReportGif}
             alt="Team Performance report"
           />
-          <p className="caption">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum,
-            quos.
-          </p>
         </section>
+        <div className="break"></div>
+        <p className="banner-info">
+          <i className="bi bi-info-circle-fill ico-info"></i>
+          Our report module's external API is slow and clunky, especially when
+          generating historical data from large data sets. Therefore, to avoid
+          adding engineering complexity and further degrading performance, we
+          chose <strong>not to include the target tracking feature </strong> as
+          an addition to <strong>Team Performance Report</strong>.
+        </p>
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Solution Hypothesis</h3>
 
-        <Accordion title="Read Details" />
+            <p className="text-block">
+              We believe that developing a{" "}
+              <strong>dedicated "Target Reports" module</strong> for{" "}
+              <strong>recruitment teams</strong> will streamline their workflow,
+              saving them significant time on manual administrative tasks. We
+              will know this is true when we see a{" "}
+              <strong>high adoption rate</strong> of the new feature and a{" "}
+              <strong>
+                measurable increase in our customer Net Promoter Score (NPS)
+              </strong>{" "}
+              .
+            </p>
+          </span>
+        </section>
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Solution Sub-Hypothesis</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>We will create</th>
+                  <th>For</th>
+                  <th>In order to</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="td-dark">Target KPIs Management</td>
+                  <td className="td-dark">Recruitment Leaders</td>
+                  <td className="td-dark">
+                    Easily create and manage Target records
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-base">Target Reports Dashboard</td>
+                  <td className="td-base">Recruitment Leaders and Teammates</td>
+                  <td className="td-base">
+                    Check live progress of assigned targets
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-dark">Public Sharing Reports</td>
+                  <td className="td-dark">Recruitment Leaders and Teammates</td>
+                  <td className="td-dark">
+                    Enable managers to display live target progress on a
+                    separate screen for their team without requiring them to log
+                    in
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-base">Email Notifications</td>
+                  <td className="td-base">Teammates</td>
+                  <td className="td-base">
+                    Notify when a target is assigned, reached or missed
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-dark">Multi KPI Targets</td>
+                  <td className="td-dark">Recruitment Leaders</td>
+                  <td className="td-dark">
+                    foster better organization and strategic alignment, targets
+                    records will accommodate multiple performance metrics.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-base">Customizable Dashboard</td>
+                  <td className="td-base">Recruitment Leaders and Teammates</td>
+                  <td className="td-base">
+                    View and prioritize multiple KPIs with simple drag-and-drop
+                    reordering.
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-dark">Chart On-Hover Cards</td>
+                  <td className="td-dark">Recruitment Leaders and Teammates</td>
+                  <td className="td-dark">
+                    reveal a tooltip with specific statistics and additional
+                    details, for all chart bars.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </span>
+        </section>
+        <div className="break"></div>
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Design Process</h3>
+            <span className="single-col-text-block-sm">
+              <p className="text-block">
+                My design process began with a comprehensive audit of the
+                existing Report Module's design language, including its
+                patterns, components, fonts, and icons. I also conducted a
+                thorough competitor analysis to see how both direct and indirect
+                rivals were addressing similar reporting challenges in their own
+                products.
+              </p>
+              <p className="text-block">
+                With a solid foundation from my research, I moved to the drawing
+                board. My focus shifted to low-fidelity wireframes to plan the
+                information architecture and navigation, ensuring the new
+                target-tracking feature would be intuitive and seamlessly
+                integrated.
+              </p>
+            </span>
+          </span>
+        </section>
+        <section className="section">
+          <p className="caption">
+            <strong>Image 2:</strong> Ideation, Sketches and Whiteboarding
+          </p>
+          <img
+            className="caselet-images"
+            src={whiteboardTargetReport}
+            alt="Team Performance report"
+          />
+        </section>
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Design Challenges</h3>
+            <span className="single-col-text-block-sm">
+              <ol>
+                <li>
+                  Recruit CRM lacks a unified design system. This has resulted
+                  in inconsistencies in colors and layout for the same component
+                  throughout the application, making it difficult to establish a
+                  standard.
+                </li>
+                <li>
+                  When I was working on the Target Reports project, one of the
+                  biggest challenges was figuring out how to show multiple KPIs
+                  for teams and individuals all at once. Since our other report
+                  modules already had their own design rules, it was tough to
+                  get the charts to look right. On top of that, most competitors
+                  were only ever showing one KPI at a time, so I really had to
+                  come up with some new, creative ways to solve this.
+                </li>
+              </ol>
+            </span>
+          </span>
+        </section>
+        <section className="section">
+          <p className="caption">
+            <strong>Image 3:</strong> Early Design Explorations
+          </p>
+          <ImageSlider />
+          <img
+            className="caselet-images"
+            src={teamPerformanceReportGif}
+            alt="Team Performance report"
+          />
+        </section>
+        <div className="break"></div>
+
+        {/* <Accordion title="Read Details" /> */}
       </div>
     </>
   );

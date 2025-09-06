@@ -1,0 +1,23 @@
+.slider-body {
+  width: 100%;
+  overflow: hidden;
+}
+.icon-only-btn {
+  background-color: var(--surface-color-turnary-alpha);
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+}
+
+.current-indicator {
+  width: 0.5rem;
+  height: 0.25rem;
+  color: var(--brand-blue-200);
+}
+
+.dot-indicator {
+  width: 0.25rem;
+  height: 0.25rem;
+  color: var(--brand-blue-200);
+}
