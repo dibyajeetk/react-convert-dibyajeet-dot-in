@@ -332,7 +332,7 @@ function TargetReport() {
           </p>
           <ImageSlider slides={TargetManagementImages} />
         </section>
-
+        <div className="spacer-lg"></div>
         <section className="section">
           <span className="text-block-row">
             <span className="header-block">

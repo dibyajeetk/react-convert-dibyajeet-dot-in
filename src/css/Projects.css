@@ -14,7 +14,7 @@
 
 .headlines {
   font-family: "Lora", serif;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-m);
   margin-bottom: 2rem;
   color: var(--text-color-secondary);
   text-align: center;
@@ -25,9 +25,10 @@
   gap: 2rem;
 }
 
-.subheader {
-  font-size: var(--font-size-m);
+h3 {
+  font-size: var(--font-size-l);
   font-weight: 600;
+  font-family: "Lora", serif;
 }
 .text-block {
   flex: 1;
@@ -141,13 +142,16 @@ li {
 }
 
 .caption-big {
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-l);
   font-style: italic;
   color: var(--text-color-tertiary);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .header-block {
   flex: 1;
   margin-top: 0.5rem;
+}
+.spacer-lg {
+  min-height: 10rem;
 }

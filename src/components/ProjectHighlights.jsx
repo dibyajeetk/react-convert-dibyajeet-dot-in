@@ -3,7 +3,7 @@ import "../css/ProjectHighlights.css";
 function ProjectHighlites({ name, desc, role, duration }) {
   return (
     <div className="project-info">
-      <h2>{name}</h2>
+      <h1>{name}</h1>
       <div className="data-row-info">
         <span className="main-info">
           <p className="strong-text">Brief</p>

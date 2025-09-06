@@ -8,9 +8,9 @@
   z-index: 1;
 }
 
-.project-info > h2 {
+.project-info > h1 {
   font-family: "Lora", serif;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-xxl);
   margin-bottom: 1rem;
 }
 
