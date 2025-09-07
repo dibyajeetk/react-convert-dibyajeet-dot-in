@@ -38,4 +38,25 @@ footer > h2 {
 
 .footer-copy {
   font-size: var(--font-size-l);
+  color: var(--text-color-primary);
+  text-decoration: none;
+}
+
+.footer-group > a:hover {
+  color: var(--brand-blue-300);
+}
+
+.footer-icon {
+  font-size: var(--font-size-l);
+  color: var(--text-color-primary);
+}
+
+.footer-icon:hover {
+  color: var(--brand-blue-300);
+}
+
+.icon-holder {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
