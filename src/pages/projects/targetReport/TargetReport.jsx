@@ -72,38 +72,47 @@ function TargetReport() {
             </span>
             <span className="text-block-row">
               <h3 className="sub-header">Stakeholders and Collaborations</h3>
-              <p className="text-block">
-                For this project, I had to continuously communicate with my
-                stakeholders to update them on my progress as well as be
-                proactive in seeking out feedback. I checked in regularly with
-                the product team
-                <span className="highlighted">
-                  {" "}
-                  Akshay Waghmare, Associate Director Product{" "}
-                </span>{" "}
-                and
-                <span className="highlighted">
-                  {" "}
-                  Hansaj Sarma, Product Manager{" "}
-                </span>
-                to identify if the project is going in the correct direction.
-                Once the project had reached a desirable state of solving users
-                needs the projects was then showcased to
-                <span className="highlighted">
-                  {" "}
-                  Kanchan Singh, Director of Product{" "}
-                </span>{" "}
-                and
-                <span className="highlighted"> Sean Mallapurkar, CEO </span> to
-                get the green light for development efforts. Finally, I would
-                communicate on a need to know basis with
-                <span className="highlighted">
-                  {" "}
-                  Sachin Patel, Engineering Manager{" "}
-                </span>{" "}
-                for this project to Identify any limitations and propose
-                alternate solution.
-              </p>
+              <span className="single-col-text-block-sm">
+                <p className="text-block">
+                  Throughout this project, I took a proactive approach to
+                  collaboration, ensuring continuous communication with key
+                  stakeholders to keep the project on track.
+                </p>
+                <ul>
+                  <li>
+                    <strong>Product Team: </strong>I had regular check-ins with
+                    <span className="highlighted">
+                      {" "}
+                      Akshay Waghmare, Associate Director Product{" "}
+                    </span>
+                    and
+                    <span className="highlighted">
+                      {" "}
+                      Hansaj Sarma, Product Manager{" "}
+                    </span>{" "}
+                    to ensure the project was always moving in the right
+                    direction.
+                  </li>
+                  <li>
+                    <strong>Leadership Collaboration: </strong> Once the project
+                    was in a desirable state, I showcased the work to{" "}
+                    <span className="highlighted">
+                      Kanchan Singh, Director of Product
+                    </span>
+                    , and{" "}
+                    <span className="highlighted">Sean Mallapurkar, CEO</span>,
+                    to get the final green light for development.
+                  </li>
+                  <li>
+                    <strong>Engineering: </strong> I collaborated with{" "}
+                    <span className="highlighted">
+                      Sachin Patel, Engineering Manager
+                    </span>
+                    , once development started to identify any technical
+                    limitations and proactively propose alternative solutions.
+                  </li>
+                </ul>
+              </span>
             </span>
           </span>
         </section>
@@ -249,9 +258,8 @@ function TargetReport() {
                 My design process began with a comprehensive audit of the
                 existing Report Module's design language, including its
                 patterns, components, fonts, and icons. I also conducted a
-                thorough competitor analysis to see how both direct and indirect
-                rivals were addressing similar reporting challenges in their own
-                products.
+                competitor analysis to see how both direct and indirect rivals
+                were addressing similar reporting feature in their own products.
               </p>
               <p className="text-block">
                 With a solid foundation from my research, I moved to the drawing
