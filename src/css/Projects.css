@@ -1,3 +1,7 @@
+.page-contents {
+  margin-top: 4rem;
+  max-width: 100%;
+}
 .page-header {
   width: 100%;
   display: flex;
@@ -205,4 +209,10 @@ li {
   margin-top: 0.5rem;
   object-fit: cover;
   width: 40%;
+}
+@media (min-width: 786px) {
+  .page-contents {
+    margin-top: 4rem;
+    max-width: 960px;
+  }
 }

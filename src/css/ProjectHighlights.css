@@ -1,6 +1,5 @@
 .project-info {
-  width: 960px;
-  margin-top: -2rem;
+  margin-top: 2rem;
   border: 2px solid var(--border-color-primary);
   background-color: var(--surface-color-secondary);
   border-radius: 0.5rem;
@@ -24,15 +23,12 @@
 
 .data-row-info {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
-}
-.page-contents {
-  margin-top: 4rem;
-  width: 960px;
 }
 
 .main-info {
-  width: 60%;
+  width: 100%;
 }
 .main-info > p {
   line-height: 1.5;
@@ -41,4 +37,25 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+}
+
+@media (min-width: 786px) {
+  .data-row-info {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .project-info {
+    max-width: 960px;
+    margin-top: -2rem;
+    border: 2px solid var(--border-color-primary);
+    background-color: var(--surface-color-secondary);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    z-index: 1;
+  }
+  .main-info {
+    width: 60%;
+  }
 }
