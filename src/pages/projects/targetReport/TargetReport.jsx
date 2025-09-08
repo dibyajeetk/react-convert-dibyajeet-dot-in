@@ -11,6 +11,14 @@ import explorationC from "./exploration-3.jpg";
 import navigationGif from "./navigation.gif";
 import createTargetGif from "./create-target.gif";
 import listViewGif from "./list-view.gif";
+import createModalImg from "./create-modal.jpg";
+import benchmarkImg from "./benchmark.png";
+import reportHoverGif from "./report-hover.gif";
+import dragChartImg from "./drag-chart.jpg";
+import expandCollapseChartGif from "./expand-collapse-card.gif";
+import mockupLiveDashboardImg from "./live-dashboard-2.jpg";
+import reportSharingGif from "./report-sharing.gif";
+import sharedDashboardImg from "./shared-dashboard.jpg";
 
 function TargetReport() {
   const projectData = {
@@ -143,8 +151,7 @@ function TargetReport() {
         </section>
         <section className="section">
           <p className="caption">
-            <strong>Image 1:</strong> Showcasing how Team Performance Reports
-            work
+            Showcasing how Team Performance Reports work
           </p>
           <img
             className="caselet-images"
@@ -255,26 +262,41 @@ function TargetReport() {
             <h3 className="sub-header">Design Process</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                My design process began with a comprehensive audit of the
-                existing Report Module's design language, including its
-                patterns, components, fonts, and icons. I also conducted a
-                competitor analysis to see how both direct and indirect rivals
-                were addressing similar reporting feature in their own products.
+                In the absence of a design system I started by auditing the
+                existing design language and conducting a competitor analysis.
+                Initially, leadership wanted a fully flexible feature, but the
+                complexity of combining multiple KPIs with multiple assignees
+                led me to a roadblock.
               </p>
               <p className="text-block">
-                With a solid foundation from my research, I moved to the drawing
-                board. My focus shifted to low-fidelity wireframes to plan the
-                information architecture and navigation, ensuring the new
-                target-tracking feature would be intuitive and seamlessly
-                integrated.
+                I got back on the drawing board and explored competitor apps.
+                Pipedrive's CRM target feature became a key benchmark - it
+                focuses on one entity type and one KPI, which validated my
+                hypothesis that simplification was the right approach. I made
+                the decision to simplify our feature so that one target could
+                only be assigned to one type of entity. This made the feature
+                easier to comprehend and design, while still delivering our key
+                competitive advantage: the ability to track multiple KPIs on a
+                single target.
               </p>
             </span>
           </span>
         </section>
+
         <section className="section">
           <p className="caption">
-            <strong>Image 2:</strong> Ideation, Sketches and Whiteboarding
+            Pipedrive CRMs: Target Form only lets you add one Assign Type and
+            KPI(Activity Type)
           </p>
+          <img
+            className="caselet-images"
+            src={benchmarkImg}
+            alt="Team Performance report"
+          />
+        </section>
+
+        <section className="section">
+          <p className="caption">Ideation, Sketches and Whiteboarding</p>
           <img
             className="caselet-images"
             src={whiteboardTargetReport}
@@ -283,9 +305,7 @@ function TargetReport() {
         </section>
 
         <section className="section">
-          <p className="caption">
-            <strong>Image Slide:</strong> Early Design Explorations
-          </p>
+          <p className="caption">Early Design Explorations</p>
           <ImageSlider slides={earlyExplorations} />
         </section>
         <div className="break"></div>
@@ -293,8 +313,8 @@ function TargetReport() {
         <section className="section">
           <span className="text-block-row">
             <span className="header-block">
-              <p className="caption-big">Finalising Design - 1</p>
-              <h3 className="sub-header">Target KPIs Management</h3>
+              <p className="caption-big">Solution: Flow One</p>
+              <h3 className="sub-header">Target Management</h3>
             </span>
             <span className="single-col-text-block-sm">
               <p className="text-block">
@@ -320,17 +340,42 @@ function TargetReport() {
           </span>
         </section>
         <section className="section">
-          <p className="caption">
-            <strong>Image Slide 2:</strong> Final Design - Target KPIs
-            Management
-          </p>
+          <p className="caption">Final Design - Target Management</p>
           <ImageSlider slides={TargetManagementImages} />
         </section>
-        <div className="spacer-lg"></div>
+        <section className="section">
+          <p className="caption">Final Design - Create Target Modal</p>
+          <span className="text-block-row">
+            <img
+              className="sm-caselet-image"
+              src={createModalImg}
+              alt="Team Performance report"
+            />
+            <span className="single-col-text-block-sm">
+              <p className="text-block">
+                I built a new UI component for the Recruit CRM system to handle
+                up to 32 KPIs. The solution was effective and now used in
+                similar cases across the product.
+              </p>
+              <ul>
+                <li>
+                  <span className="emphasis">Quick to Add:</span> "Add Another
+                  KPI" adds a new row with a KPI dropdown and input field.
+                </li>
+                <li>
+                  <span className="emphasis">Built for Simplicity: </span>A
+                  "minus" button appears to remove fields, keeping the form
+                  clean.
+                </li>
+              </ul>
+            </span>
+          </span>
+        </section>
+
         <section className="section">
           <span className="text-block-row">
             <span className="header-block">
-              <p className="caption-big">Finalising Design - 2</p>
+              <p className="caption-big">Solution: Flow Two</p>
               <h3 className="sub-header">Target Report Dashboard</h3>
             </span>
             <span className="single-col-text-block-sm">
@@ -358,10 +403,101 @@ function TargetReport() {
           </span>
         </section>
         <section className="section">
+          <p className="caption">Final Design - Report Dashboard</p>
+          <img
+            className="caselet-images"
+            src={reportHoverGif}
+            alt="Team Performance report"
+          />
+        </section>
+        <section className="section">
           <p className="caption">
-            <strong>Image Slide 4:</strong> Final Design - Target Reports View
+            Final Design - Drag and Drop chart cards for easy viewing
           </p>
-          <ImageSlider slides={TargetManagementImages} />
+          <img
+            className="caselet-images"
+            src={dragChartImg}
+            alt="Drag and drop Chart Cards"
+          />
+        </section>
+        <section className="section">
+          <p className="caption">
+            Final Design - Expand and collapse chart cards
+          </p>
+          <img
+            className="caselet-images"
+            src={expandCollapseChartGif}
+            alt="Expand Collapse Card"
+          />
+        </section>
+
+        <section className="section">
+          <span className="text-block-row">
+            <span className="header-block">
+              <p className="caption-big">Solution: Flow Three</p>
+              <h3 className="sub-header">
+                Report Sharing and Email Notification
+              </h3>
+            </span>
+            <span className="single-col-text-block-sm">
+              <ul>
+                <li>
+                  <span className="emphasis">Report Sharing: </span> A key
+                  insight from a stand-up with the CEO led me to add a share
+                  report feature, which lets managers display a scoreboard for
+                  the team's daily targets.
+                </li>
+                <li>
+                  While presenting to engineering team I got to know that auto
+                  refresh intervals were a more efficient solution than a live
+                  refresh, as a constant refresh would be resource-heavy and
+                  strain the database.
+                </li>
+                <li>
+                  <span className="emphasis">Notifications: </span>My initial
+                  scope included both in-app and email notifications. To meet
+                  our launch goals, we focused on building just email
+                  notifications for now, with in-app notifications planned for a
+                  later phase.
+                </li>
+              </ul>
+            </span>
+          </span>
+        </section>
+
+        <section className="section">
+          <p className="caption">
+            Mockup - showcasing Shared Live Target Report dashboard in office
+            setting
+          </p>
+          <img
+            className="caselet-images"
+            src={mockupLiveDashboardImg}
+            alt="Expand Collapse Card"
+          />
+        </section>
+
+        <section className="section">
+          <p className="caption">
+            Final Design - How to turn on report sharing
+          </p>
+          <img
+            className="caselet-images"
+            src={reportSharingGif}
+            alt="Final Design - How to turn on report sharing"
+          />
+        </section>
+
+        <section className="section">
+          <p className="caption">
+            Mockup - showcasing Shared Live Target Report dashboard in office
+            setting
+          </p>
+          <img
+            className="caselet-images"
+            src={sharedDashboardImg}
+            alt="Final Design - how the externally shared dashboard will look"
+          />
         </section>
 
         <div className="break"></div>
