@@ -1,6 +1,11 @@
 import "../css/About.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
+import displayPhotoImg from "../../src/assets/display-photo.jpg";
+import motoImgA from "../../src/assets/moto-one.jpg";
+import motoImgB from "../../src/assets/moto-two.jpg";
+import motoImgC from "../../src/assets/moto-three.jpg";
+
 function About() {
   return (
     <>
@@ -40,12 +45,7 @@ function About() {
             </a>
           </div>
         </div>
-        <img
-          src="./src/assets/display-photo.jpg"
-          alt=""
-          width="auto"
-          height="500px"
-        />
+        <img src={displayPhotoImg} alt="" width="auto" height="500px" />
       </section>
       <section className="hobbies">
         <h2>When I am not working</h2>
@@ -57,7 +57,7 @@ function About() {
         <div className="photos">
           <div className="frames">
             <img
-              src="./src/assets/moto-one.jpg"
+              src={motoImgA}
               alt="Off-road trail exploration at Burundi Dam at Jharkhand, India"
             />
             <p className="caption">
@@ -65,14 +65,14 @@ function About() {
             </p>
           </div>
           <div className="frames">
-            <img src="./src/assets/moto-two.jpg" alt="Trip to Yuksom, Sikkim" />
+            <img src={motoImgB} alt="Trip to Yuksom, Sikkim" />
             <p className="caption">
               1600 Kms ride from home to the wilderness of Sikkim, India.
             </p>
           </div>
           <div className="frames">
             <img
-              src="./src/assets/moto-three.jpg"
+              src={motoImgC}
               alt="Off-Road trail riding at Damodar River bank, Durgapur, India"
             />
             <p className="caption">

@@ -2,6 +2,7 @@ import "../css/Home.css";
 import ProjectCard from "../components/ProjectCard";
 import { Link } from "react-router-dom";
 
+import heroImageSvg from "../../src/assets/hero-image.svg";
 import TargetReportCover from "./projects/targetReport/cover.jpg";
 
 function Home() {
@@ -48,7 +49,7 @@ function Home() {
         </span>
         <span className="illustration">
           <img
-            src="./src/assets/hero-image.svg"
+            src={heroImageSvg}
             alt="Illustration of a pencil"
             className="hero-image"
           />
