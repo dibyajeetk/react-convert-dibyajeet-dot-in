@@ -1,14 +1,20 @@
 .toggle-mode-btn {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   border-radius: var(--border-radius-xs);
-  height: 2.5rem;
   width: auto;
+  height: 2.5rem;
   background-color: var(--surface-color-turnary);
   border: 2px solid var(--border-color-primary);
   cursor: pointer;
+}
+
+.mobile-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .mode {
   display: inline-flex;
@@ -26,4 +32,19 @@
 .active {
   background-color: var(--surface-color-secondary);
   border: 2px solid var(--border-color-secondary);
+}
+
+@media (min-width: 786px) {
+  .toggle-mode-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: var(--border-radius-xs);
+    height: 2.5rem;
+    width: auto;
+    background-color: var(--surface-color-turnary);
+    border: 2px solid var(--border-color-primary);
+    cursor: pointer;
+  }
 }
