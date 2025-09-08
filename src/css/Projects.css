@@ -40,8 +40,9 @@ h3 {
 
 .text-block-row {
   display: flex;
-  justify-content: space-between;
-  gap: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .text-block-row > p {
@@ -208,11 +209,21 @@ li {
 .sm-caselet-image {
   margin-top: 0.5rem;
   object-fit: cover;
-  width: 40%;
+  width: 100%;
 }
 @media (min-width: 786px) {
   .page-contents {
     margin-top: 4rem;
     max-width: 960px;
+  }
+  .text-block-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+  .sm-caselet-image {
+    margin-top: 0.5rem;
+    object-fit: cover;
+    width: 40%;
   }
 }
