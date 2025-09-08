@@ -6,33 +6,38 @@ function About() {
     <>
       <section className="about-context">
         <div className="about-text">
-          <h2>I am passionate about pixels, products, and people.</h2>
+          <h2>"Designing for Action, Not Just Aesthetics"</h2>
           <p>
-            I believe that design is a powerful medium to solve complex problems
-            and create meaningful experiences that resonate with people on an
-            emotional level. I take a holistic and human-centered approach to
-            design, which is why I consider my strongest asset to be my
-            well-roundedness and eagerness to work across disciplines. I get
-            excited about zooming out, understanding the bigger picture and who
-            I'm designing for, and zooming in, paying attention to fine details
-            and craft. I love to learn new skills that are outside my comfort
-            zone and I'm especially enthusiastic about working in a team of
-            different views and disciplines where I believe a lot of learning,
-            valuable mistakes, and true innovation happens.
+            I'm a Product Designer who believes form follows function, though
+            I’ve always had a soft spot for clean aesthetics and am always
+            searching for the balance between the two. My love for video games
+            and storytelling is what first drew me to design. My interest in
+            mixed media, furniture design, and wearables has often got me
+            thinking about how smart products and the implementation of XR and
+            AI will shape the future.
           </p>
 
-          <p className="email">
-            <i className="bi bi-envelope-fill"></i>
-            <span className="email-address">ux.dibyajeet@gmail.com</span>
+          <p>
+            I'd like to think I'm highly empathetic, but my experience has
+            taught me that people can only give meaningful feedback when they
+            have something tangible to react to. This is why I believe
+            assumptions are a great starting point for building a solid product.
+            This pragmatic approach allows me to deliver tangible business
+            results.
           </p>
+          <a href="mailto:ux.dibyajeet@gmail.com" className="email-address">
+            ux.dibyajeet@gmail.com
+          </a>
           <div className="buttons-container">
-            <button className="secondary-button">
-              <i class="bi bi-box-arrow-in-down"></i>
-              <span>resume</span>
-            </button>
-            <button className="secondary-button">
-              <i className="bi bi-linkedin"></i>
-            </button>
+            <a href="http://" className="about-link">
+              <i className="bi bi-box-arrow-in-down"></i> resume
+            </a>
+            <a href="http://" className="about-link">
+              <i className="bi bi-linkedin"></i> linkedin
+            </a>
+            <a href="http://" className="about-link">
+              <i className="bi bi-instagram"></i> instagram
+            </a>
           </div>
         </div>
         <img

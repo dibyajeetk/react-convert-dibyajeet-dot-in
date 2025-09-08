@@ -29,7 +29,9 @@
 
 .about-context img {
   object-fit: cover;
-  width: 50%;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 .email {
@@ -39,21 +41,39 @@
 }
 
 .email-address {
+  font-size: var(--font-size-xl);
   font-weight: 600;
-  margin-left: var(--spacing-xs);
+  text-decoration: none;
+  color: var(--link-default);
+  margin-bottom: 2rem;
+}
+.email-address:hover {
+  color: var(--brand-blue-400);
+}
+
+.about-link {
+  color: var(--link-default);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 600;
+}
+.about-link:hover {
+  color: var(--brand-blue-400);
 }
 
 .buttons-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: var(--spacing-s);
 }
 
 .secondary-button {
   display: flex;
   gap: var(--spacing-xs);
-  background-color: transparent;
-  border: 2px solid var(--brand-blue-600);
+  background-color: var(--surface-color-secondary);
+  border: none;
   color: var(--text-color-primary);
   padding: 0.5rem 1rem;
   font-family: "Lato", sans-serif;
@@ -63,11 +83,15 @@
   min-height: 40px;
 }
 
+.secondary-button:hover {
+  background-color: var(--brand-blue-400);
+}
+
 .hobbies {
-  max-width: 960px;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  margin: var(--spacing-xl) 0;
+  margin: var(--spacing-l) 0;
 }
 
 .hobbies > h2 {
@@ -83,7 +107,7 @@
 }
 .photos {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: var(--spacing-s);
 }
 
@@ -136,5 +160,20 @@
     /* align-items: stretch; */
     gap: var(--spacing-m);
     margin: var(--spacing-l) 0;
+  }
+  .about-context img {
+    object-fit: cover;
+    width: 50%;
+  }
+  .hobbies {
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    margin: var(--spacing-xl) 0;
+  }
+  .photos {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-s);
   }
 }
