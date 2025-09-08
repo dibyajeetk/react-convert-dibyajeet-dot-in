@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import TargetReportCover from "./projects/targetReport/cover.jpg";
 
 function Home() {
+  // test
   const projects = [
     {
       id: 1,
