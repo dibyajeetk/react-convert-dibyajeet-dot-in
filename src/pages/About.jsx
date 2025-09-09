@@ -37,10 +37,13 @@ function About() {
             <a href="http://" className="about-link">
               <i className="bi bi-box-arrow-in-down"></i> resume
             </a>
-            <a href="http://" className="about-link">
+            <a
+              href="https://www.linkedin.com/in/dibyajeetk/"
+              className="about-link"
+            >
               <i className="bi bi-linkedin"></i> linkedin
             </a>
-            <a href="http://" className="about-link">
+            <a href="https://www.instagram.com/97ronen/" className="about-link">
               <i className="bi bi-instagram"></i> instagram
             </a>
           </div>

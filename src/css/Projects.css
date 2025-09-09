@@ -121,7 +121,7 @@ table {
   border-radius: 0.25rem;
   border: 1px solid var(--border-color-primary);
   border-collapse: separate;
-  width: 597.34px;
+  width: 100%;
 }
 
 th {
@@ -129,6 +129,7 @@ th {
   text-align: left;
   background-color: var(--surface-color-quaternary);
   font-weight: 700;
+  width: auto;
 }
 .td-dark {
   padding: 1rem 1.5rem;
@@ -226,5 +227,17 @@ li {
     margin-top: 0.5rem;
     object-fit: cover;
     width: 40%;
+  }
+  table {
+    border-radius: 0.25rem;
+    border: 1px solid var(--border-color-primary);
+    border-collapse: separate;
+    width: 597.34px;
+  }
+  th {
+    padding: 0.5rem 1.5rem;
+    text-align: left;
+    background-color: var(--surface-color-quaternary);
+    font-weight: 700;
   }
 }

@@ -4,28 +4,20 @@ import { Link } from "react-router-dom";
 
 import heroImageSvg from "../../src/assets/hero-image.svg";
 import TargetReportCover from "./projects/targetReport/cover.jpg";
+import PhoneCallingCover from "./projects/phoneCalling/cover-phone-calling.jpg";
 
 function Home() {
-  // test
   const projects = [
     {
       id: 1,
-      title: "Reimagining the interface of Recruit CRM",
-      desc: "A visual exploration redesigning RecruitCRM's user interface using a new UI guidelines",
+      title: "Incomming Calls and Phone Number Purchase - for Recruit CRM",
+      desc: "A scalable two-way calling system that empowered users to manage their own virtual numbers",
       tags: ["Visual Design", "Design System"],
-      coverImage: TargetReportCover,
-      path: "/target-report",
+      coverImage: PhoneCallingCover,
+      path: "/phone-calling",
     },
     {
       id: 2,
-      title: "Incomming Calls and Phone Number Purchase - for Recruit CRM",
-      desc: "A visual exploration redesigning RecruitCRM's user interface using a new UI guidelines",
-      tags: ["Visual Design", "Design System"],
-      coverImage: TargetReportCover,
-      path: "/target-report",
-    },
-    {
-      id: 3,
       title: "Target Report - for Recruit CRM",
       desc: "A comprehensive Report module for Recruitment Leaders to assess productivity.",
       tags: ["Product Design", "Live Project"],

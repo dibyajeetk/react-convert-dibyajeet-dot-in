@@ -89,5 +89,6 @@
     overflow-x: hidden;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: none;
   }
 }
