@@ -136,30 +136,29 @@ function PhoneCalling() {
             <h3 className="sub-header">Design Process</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                The Product Manager and I collaboratively laid an outline around
-                how the feature is supposed to work inside Recruit CRM. Which
-                included Mapping out co-dependent features and settings. Create
-                User Flows for the feature. Work on Mid to High Fedality
-                Wireframe, sharing it with the engineering to understant any
-                bottle neck or missed aspect. And finally sharing it with the
-                Director of Product for Final Confirmation.
+                The Product Manager and I mapped out how this phone feature
+                would work within Recruit CRM. Identifying interdependent
+                features, user settings, and complete user flows.
+              </p>
+              <p className="text-block">
+                I then created wireframes and iterated with engineering
+                throughout the process. This collaboration was crucial for
+                catching missed requirements and technical constraints early.
+                Final designs were approved by the Director of Product.
               </p>
               <ul>
                 <li>
                   <span className="highlighted">Competetor Analysis: </span> We
-                  had to look into Direct and Indirect Competetors to find out
-                  how they are approaching similiar feature. We were heavily
-                  looking into Hubspot CRM as we thought their calling feature
-                  is very close to our needs.
+                  Studied direct/indirect competitors, with HubSpot CRM as our
+                  primary reference as their calling feature was very close to
+                  our needs.
                 </li>
                 <li>
                   <span className="highlighted">Twilio and its API: </span>
-                  We were not building the calling feature from scratch, We were
-                  using Twilio services and API to build our interface. But
-                  under the hood Twilio was used to make calls and purchase
-                  numbers. So studying its features such as Call Forwarding, IVR
-                  and regulatory Compliance that included KYC and A2P 10DLC was
-                  a core part of the design process.
+                  Since we already had outgoing calls via Twilio, we focused on
+                  expanding to incoming calls and self-service number
+                  purchasing, plus understanding regulatory requirements (KYC,
+                  A2P 10DLC)
                 </li>
               </ul>
             </span>
