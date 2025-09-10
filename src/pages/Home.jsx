@@ -12,7 +12,7 @@ function Home() {
       id: 1,
       title: "Incomming Calls and Phone Number Purchase - for Recruit CRM",
       desc: "A scalable two-way calling system that empowered users to manage their own virtual numbers",
-      tags: ["Visual Design", "Design System"],
+      tags: ["Product Design", "Live Project"],
       coverImage: PhoneCallingCover,
       path: "/phone-calling",
     },

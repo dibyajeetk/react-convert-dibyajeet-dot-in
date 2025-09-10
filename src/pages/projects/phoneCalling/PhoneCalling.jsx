@@ -33,11 +33,25 @@ function PhoneCalling() {
             <span className="text-block-row">
               <h3 className="sub-header">Overview</h3>
               <p className="text-block">
-                The project’s core challenge was to design a scalable solution
-                that completely overhauled the manual and inefficient backend
-                process. My role was to create a new system that not only
-                provided two-way calling but also gave teams and individuals the
-                ability to manage their own virtual numbers.
+                I led the design of a self-service phone number purchasing
+                system for Recruit CRM that eliminated manual engineering
+                processes and enabled incoming call functionality. The 10-week
+                project required balancing complex technical constraints,
+                regulatory compliance, and user experience to deliver a scalable
+                solution that reduced support tickets and freed up engineering
+                resources.
+              </p>
+            </span>
+            <span className="text-block-row">
+              <h3 className="sub-header">Timeline</h3>
+              <p className="text-block">
+                Originally scoped for 3 weeks, this project extended to 10 weeks
+                due to evolving technical requirements discovered through
+                iterative design reviews. Each engineering feedback session
+                revealed new constraints that required design pivots. I adapted
+                by implementing a more collaborative approach with frequent
+                technical validation, ultimately delivering the final design
+                solution in the mid of December 2024.
               </p>
             </span>
             <span className="text-block-row">
@@ -91,45 +105,31 @@ function PhoneCalling() {
             <h3 className="sub-header">Problem Space</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                Our product, Recruit CRM, has a performance tracking feature
-                called{" "}
-                <span className="highlighted">Team Performance Report</span>,
-                designed to help recruitment leaders track team performance and
-                target achievements. We have observed that recruitment leaders
-                are performing a lot of manual work including saving data in
-                external spreadsheets for comparision which is causing a
-                significant time and effort sink and is leading to inaccurate
-                reporting and a lack of real-time insights.
+                Recruit CRM's calling feature originally supported only outgoing
+                calls with automatic transcript storage. However, our
+                engineering team was manually purchasing phone numbers and
+                configuring client accounts through backend processes creating a
+                significant operational bottleneck. This manual workflow
+                consumed valuable engineering resources and generated support
+                tickets whenever clients encountered setup issues. Meanwhile,
+                clients were actively requesting incoming call capabilities and
+                the ability to purchase multiple numbers for different
+                departments and team members.
               </p>
               <p className="text-block-emphasis">
                 <i className="bi bi-exclamation-octagon-fill ico"></i>
                 <strong>The Challenge: </strong>
-                How might we streamline the target tracking workflow so that our
-                customers spend less time on administrative tasks and more time
-                on actual recruitment work?
+                How might we create a self-service solution that empowers
+                clients to purchase and assign virtual numbers, so that we can
+                free up engineering resources, reduce support overhead, and
+                enable scalable business growth?
               </p>
             </span>
           </span>
         </section>
-        <section className="section">
-          <p className="caption">
-            Showcasing how Team Performance Reports work
-          </p>
-          {/* <img
-            className="caselet-images"
-            src={teamPerformanceReportGif}
-            alt="Team Performance report"
-          /> */}
-        </section>
+
         <div className="break"></div>
-        <p className="banner-info">
-          <i className="bi bi-info-circle-fill ico-info"></i>
-          Our report module's external API is slow and clunky, especially when
-          generating historical data from large data sets. Therefore, to avoid
-          adding engineering complexity and further degrading performance, we
-          chose <strong>not to include the target tracking feature </strong> as
-          an addition to <strong>Team Performance Report</strong>.
-        </p>
+
         <section className="section">
           <span className="text-block-row">
             <h3 className="sub-header">Solution Hypothesis</h3>
