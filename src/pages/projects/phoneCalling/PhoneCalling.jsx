@@ -58,42 +58,43 @@ function PhoneCalling() {
               <h3 className="sub-header">Stakeholders and Collaborations</h3>
               <span className="single-col-text-block-sm">
                 <p className="text-block">
-                  Throughout this project, I took a proactive approach to
-                  collaboration, ensuring continuous communication with key
-                  stakeholders to keep the project on track.
+                  Throughout this project, I established structured
+                  communication channels with stakeholders to navigate emerging
+                  challenges and technical discoveries.
                 </p>
                 <ul>
                   <li>
-                    <strong>Product Team: </strong>I had regular check-ins with
+                    <strong>Product Team: </strong>I had daily stand-ups with
                     <span className="highlighted">
                       {" "}
-                      Akshay Waghmare, Associate Director Product{" "}
+                      Kanchan Singh, Director of Product{" "}
                     </span>
                     and
                     <span className="highlighted">
                       {" "}
-                      Hansaj Sarma, Product Manager{" "}
+                      Rahul Bhowmick, Product Manager{" "}
                     </span>{" "}
-                    to ensure the project was always moving in the right
-                    direction.
+                    to align on evolving requirements and project adjustments as
+                    new constraints were identified.
                   </li>
                   <li>
-                    <strong>Leadership Collaboration: </strong> Once the project
-                    was in a desirable state, I showcased the work to{" "}
+                    <strong>Engineering Team: </strong> I collaborated with
                     <span className="highlighted">
-                      Kanchan Singh, Director of Product
+                      {" "}
+                      Ashish Shah, Senior Software Engineering
                     </span>
-                    , and{" "}
-                    <span className="highlighted">Sean Mallapurkar, CEO</span>,
-                    to get the final green light for development.
-                  </li>
-                  <li>
-                    <strong>Engineering: </strong> I collaborated with{" "}
+                    ,
                     <span className="highlighted">
-                      Sachin Patel, Engineering Manager
+                      {" "}
+                      Aniket Kumar, Senior Associate Software Engineer{" "}
                     </span>
-                    , once development started to identify any technical
-                    limitations and proactively propose alternative solutions.
+                    and
+                    <span className="highlighted">
+                      {" "}
+                      Mayur Patil, Software Engineer
+                    </span>
+                    , to understand technical limitations that emerged during
+                    development and iterate on design solutions accordingly.
                   </li>
                 </ul>
               </span>
@@ -102,7 +103,7 @@ function PhoneCalling() {
         </section>
         <section className="section">
           <span className="text-block-row">
-            <h3 className="sub-header">Problem Space</h3>
+            <h3 className="sub-header">Primary Problem</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
                 Recruit CRM's calling feature originally supported only outgoing
@@ -132,118 +133,40 @@ function PhoneCalling() {
 
         <section className="section">
           <span className="text-block-row">
-            <h3 className="sub-header">Solution Hypothesis</h3>
-
-            <p className="text-block">
-              We believe that developing a{" "}
-              <strong>dedicated "Target Reports" module</strong> for{" "}
-              <strong>recruitment teams</strong> will streamline their workflow,
-              saving them significant time on manual administrative tasks. We
-              will know this is true when we see a{" "}
-              <strong>high adoption rate</strong> of the new feature and a{" "}
-              <strong>
-                measurable increase in our customer Net Promoter Score (NPS)
-              </strong>{" "}
-              .
-            </p>
-          </span>
-        </section>
-        <section className="section">
-          <span className="text-block-row">
-            <h3 className="sub-header">Solution Sub-Hypothesis</h3>
-            <table>
-              <thead>
-                <tr>
-                  <th>We will create</th>
-                  <th>For</th>
-                  <th>In order to</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="td-dark">Target KPIs Management</td>
-                  <td className="td-dark">Recruitment Leaders</td>
-                  <td className="td-dark">
-                    Easily create and manage Target records
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-base">Target Reports Dashboard</td>
-                  <td className="td-base">Recruitment Leaders and Teammates</td>
-                  <td className="td-base">
-                    Check live progress of assigned targets
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-dark">Public Sharing Reports</td>
-                  <td className="td-dark">Recruitment Leaders and Teammates</td>
-                  <td className="td-dark">
-                    Enable managers to display live target progress on a
-                    separate screen for their team without requiring them to log
-                    in
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-base">Email Notifications</td>
-                  <td className="td-base">Teammates</td>
-                  <td className="td-base">
-                    Notify when a target is assigned, reached or missed
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-dark">Multi KPI Targets</td>
-                  <td className="td-dark">Recruitment Leaders</td>
-                  <td className="td-dark">
-                    foster better organization and strategic alignment, targets
-                    records will accommodate multiple performance metrics.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-base">Customizable Dashboard</td>
-                  <td className="td-base">Recruitment Leaders and Teammates</td>
-                  <td className="td-base">
-                    View and prioritize multiple KPIs with simple drag-and-drop
-                    reordering.
-                  </td>
-                </tr>
-                <tr>
-                  <td className="td-dark">Chart On-Hover Cards</td>
-                  <td className="td-dark">Recruitment Leaders and Teammates</td>
-                  <td className="td-dark">
-                    reveal a tooltip with specific statistics and additional
-                    details, for all chart bars.
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </span>
-        </section>
-        <div className="break"></div>
-        <section className="section">
-          <span className="text-block-row">
             <h3 className="sub-header">Design Process</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                In the absence of a design system I started by auditing the
-                existing design language and conducting a competitor analysis.
-                Initially, leadership wanted a fully flexible feature, but the
-                complexity of combining multiple KPIs with multiple assignees
-                led me to a roadblock.
+                The Product Manager and I collaboratively laid an outline around
+                how the feature is supposed to work inside Recruit CRM. Which
+                included Mapping out co-dependent features and settings. Create
+                User Flows for the feature. Work on Mid to High Fedality
+                Wireframe, sharing it with the engineering to understant any
+                bottle neck or missed aspect. And finally sharing it with the
+                Director of Product for Final Confirmation.
               </p>
-              <p className="text-block">
-                I got back on the drawing board and explored competitor apps.
-                Pipedrive's CRM target feature became a key benchmark - it
-                focuses on one entity type and one KPI, which validated my
-                hypothesis that simplification was the right approach. I made
-                the decision to simplify our feature so that one target could
-                only be assigned to one type of entity. This made the feature
-                easier to comprehend and design, while still delivering our key
-                competitive advantage: the ability to track multiple KPIs on a
-                single target.
-              </p>
+              <ul>
+                <li>
+                  <span className="highlighted">Competetor Analysis: </span> We
+                  had to look into Direct and Indirect Competetors to find out
+                  how they are approaching similiar feature. We were heavily
+                  looking into Hubspot CRM as we thought their calling feature
+                  is very close to our needs.
+                </li>
+                <li>
+                  <span className="highlighted">Twilio and its API: </span>
+                  We were not building the calling feature from scratch, We were
+                  using Twilio services and API to build our interface. But
+                  under the hood Twilio was used to make calls and purchase
+                  numbers. So studying its features such as Call Forwarding, IVR
+                  and regulatory Compliance that included KYC and A2P 10DLC was
+                  a core part of the design process.
+                </li>
+              </ul>
             </span>
           </span>
         </section>
+
+        <div className="break"></div>
 
         <section className="section">
           <p className="caption">
