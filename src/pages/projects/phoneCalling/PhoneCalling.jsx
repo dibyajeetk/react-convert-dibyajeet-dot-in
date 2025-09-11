@@ -166,7 +166,79 @@ function PhoneCalling() {
         </section>
 
         <div className="break"></div>
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Solution Hypothesis</h3>
+            <span className="single-col-text-block-sm">
+              <p className="text-block">
+                We believe that empowering recruitment agencies with a
+                self-service system for two-way calling and virtual number
+                management will strengthen their client relationships and
+                significantly reduce our support overhead.
+              </p>
+            </span>
+          </span>
+        </section>
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Solution Sub-Hypothesis</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>We will create</th>
+                  <th>For</th>
+                  <th>In order to</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="td-dark">Marketplace</td>
+                  <td className="td-dark">Recruitment Agencies</td>
+                  <td className="td-dark">To purchase phone number</td>
+                </tr>
+                <tr>
+                  <td className="td-base">
+                    Assign, Un-assign and Release functions
+                  </td>
+                  <td className="td-base">Recruitment Agencies</td>
+                  <td className="td-base">
+                    To assign or unassign phone numbers to various teams,
+                    individuals. Or, release unused phone numbers
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-dark">Incomming Call Settings</td>
+                  <td className="td-dark">Recruitment Teams</td>
+                  <td className="td-dark">
+                    To automatically handled missed calls
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-base">
+                    Call Routing Settings and Interactive Voice Response(IVR)
+                  </td>
+                  <td className="td-base">Recruitment Teams</td>
+                  <td className="td-base">To handle call forwarding</td>
+                </tr>
+              </tbody>
+            </table>
+          </span>
+        </section>
 
+        <div className="break"></div>
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Working on solutions</h3>
+            <span className="single-col-text-block-sm">
+              <p className="text-block">
+                In this iteration we had the bare bone knowledge of the
+                technical bottlenecks. We created this with our pliminary
+                knowlege of systems just to share our vision with the
+                engineering team.
+              </p>
+            </span>
+          </span>
+        </section>
         <section className="section">
           <p className="caption">
             Pipedrive CRMs: Target Form only lets you add one Assign Type and
