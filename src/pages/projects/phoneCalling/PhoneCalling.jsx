@@ -3,6 +3,15 @@ import ImageSlider from "../../../components/ImageSlider";
 import "../../../css/Projects.css";
 import ProjectHighlites from "../../../components/ProjectHighlights";
 import coverImg from "./cover-phone-calling.jpg";
+import firstFlowImg from "./first-flow.jpg";
+import decoreImg from "./frames-decore.png";
+import firstSharesOne from "./first-shares-1.jpg";
+
+import secondFlowImg from "./second-flow.jpg";
+
+import purchaseNumberFinal from "./purchase-phone-number.gif";
+import assignNumberFinal from "./assign-phone-number.gif";
+import missedNotificationFinal from "./missed-notification.gif";
 
 function PhoneCalling() {
   const projectData = {
@@ -12,6 +21,10 @@ function PhoneCalling() {
     role: "UX Designer",
     duration: "Oct - Dec, 2024",
   };
+  const firstWireframesImages = [
+    { url: firstSharesOne, title: "Final screens - navigate to Target KPIs" },
+    { url: decoreImg, title: "Final screens - create new target" },
+  ];
   return (
     <>
       <div className="page-header">
@@ -128,6 +141,14 @@ function PhoneCalling() {
             </span>
           </span>
         </section>
+        <section className="section">
+          {/* <p className="caption">initial flow diagram for the feature</p> */}
+          <img
+            className="caselet-images"
+            src={decoreImg}
+            alt="Team Performance report"
+          />
+        </section>
 
         <div className="break"></div>
 
@@ -228,252 +249,125 @@ function PhoneCalling() {
         <div className="break"></div>
         <section className="section">
           <span className="text-block-row">
-            <h3 className="sub-header">Working on solutions</h3>
+            <h3 className="sub-header">Initial wireframes</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                In this iteration we had the bare bone knowledge of the
-                technical bottlenecks. We created this with our pliminary
-                knowlege of systems just to share our vision with the
-                engineering team.
+                I started Working solution by whiteboarding and mapping out the
+                feature and mapping things in the right place. I created
+                wireframes of our vision to showcase how the feature will work.
               </p>
             </span>
           </span>
         </section>
         <section className="section">
+          <p className="caption">initial flow diagram for the feature</p>
+          <img
+            className="caselet-images"
+            src={firstFlowImg}
+            alt="Team Performance report"
+          />
+        </section>
+        <section className="section">
           <p className="caption">
-            Pipedrive CRMs: Target Form only lets you add one Assign Type and
-            KPI(Activity Type)
+            Wireframes for sharing the initial intention of the incomming call
+            feature and the comment and suggestions recived
           </p>
-          {/* <img
-            className="caselet-images"
-            src={benchmarkImg}
-            alt="Team Performance report"
-          /> */}
+          <ImageSlider slides={firstWireframesImages} />
         </section>
-
         <section className="section">
-          <p className="caption">Ideation, Sketches and Whiteboarding</p>
-          {/* <img
-            className="caselet-images"
-            src={whiteboardTargetReport}
-            alt="Team Performance report"
-          /> */}
-        </section>
-
-        <section className="section">
-          <p className="caption">Early Design Explorations</p>
-          {/* <ImageSlider slides={earlyExplorations} /> */}
+          <span className="text-block-row">
+            <h3 className="sub-header">
+              Conclusion of first rounds of engineering pitch
+            </h3>
+            <span className="single-col-text-block-sm">
+              <p className="text-block">
+                I started Working solution by whiteboarding and mapping out the
+                feature and mapping things in the right place. I created
+                wireframes of our vision to showcase how the feature will work.
+              </p>
+            </span>
+          </span>
         </section>
         <div className="break"></div>
 
         <section className="section">
           <span className="text-block-row">
-            <span className="header-block">
-              <p className="caption-big">Solution: Flow One</p>
-              <h3 className="sub-header">Target Management</h3>
-            </span>
+            <h3 className="sub-header">Reworked Solution</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                Originally, I thought the reports module would be the best entry
-                point for this feature. However, to accommodate the need for
-                access controls since some roles shouldn't see these reports, it
-                made more sense to keep it within the Admin Settings.
+                I started Working solution by whiteboarding and mapping out the
+                feature and mapping things in the right place. I created
+                wireframes of our vision to showcase how the feature will work.
               </p>
-              <ul>
-                <li>
-                  Created <strong>Empty State</strong> when there are no records
-                </li>
-                <li>
-                  Designed <strong>Create Target Modal</strong> with necessary
-                  fields
-                </li>
-                <li>
-                  Worked on <strong>List View</strong> to show case all Target
-                  Records
-                </li>
-              </ul>
             </span>
           </span>
         </section>
         <section className="section">
-          <p className="caption">Final Design - Target Management</p>
-          {/* <ImageSlider slides={TargetManagementImages} /> */}
-        </section>
-        <section className="section">
-          <p className="caption">Final Design - Create Target Modal</p>
-          <span className="text-block-row">
-            {/* <img
-              className="sm-caselet-image"
-              src={createModalImg}
-              alt="Team Performance report"
-            /> */}
-            <span className="single-col-text-block-sm">
-              <p className="text-block">
-                I built a new UI component for the Recruit CRM system to handle
-                up to 32 KPIs. The solution was effective and now used in
-                similar cases across the product.
-              </p>
-              <ul>
-                <li>
-                  <span className="emphasis">Quick to Add:</span> "Add Another
-                  KPI" adds a new row with a KPI dropdown and input field.
-                </li>
-                <li>
-                  <span className="emphasis">Built for Simplicity: </span>A
-                  "minus" button appears to remove fields, keeping the form
-                  clean.
-                </li>
-              </ul>
-            </span>
-          </span>
-        </section>
-
-        <section className="section">
-          <span className="text-block-row">
-            <span className="header-block">
-              <p className="caption-big">Solution: Flow Two</p>
-              <h3 className="sub-header">Target Report Dashboard</h3>
-            </span>
-            <span className="single-col-text-block-sm">
-              <p className="text-block">
-                A major challenge for the Target Reports project was visualizing
-                multiple KPIs at once for both teams and individuals. Our
-                existing design system didn't have a good way to handle this,
-                and most competitors were only showing one KPI at a time. This
-                meant I had to create a new approach to data visualization that
-                still felt consistent with our products design language.
-              </p>
-              <ul>
-                <li>
-                  Modeled <strong>Target Report Dashboard</strong> based on the
-                  existing reports design
-                </li>
-                <li>
-                  To handle the possibility of a single target having up to 32
-                  KPIs, I designed the charts as expandable cards. This allows
-                  users to get a high-level view and then expand a specific
-                  chart for a better look when they need to.
-                </li>
-              </ul>
-            </span>
-          </span>
-        </section>
-        <section className="section">
-          <p className="caption">Final Design - Report Dashboard</p>
-          {/* <img
+          <p className="caption">initial flow diagram for the feature</p>
+          <img
             className="caselet-images"
-            src={reportHoverGif}
+            src={secondFlowImg}
             alt="Team Performance report"
-          /> */}
+          />
         </section>
-        <section className="section">
-          <p className="caption">
-            Final Design - Drag and Drop chart cards for easy viewing
-          </p>
-          {/* <img
-            className="caselet-images"
-            src={dragChartImg}
-            alt="Drag and drop Chart Cards"
-          /> */}
-        </section>
-        <section className="section">
-          <p className="caption">
-            Final Design - Expand and collapse chart cards
-          </p>
-          {/* <img
-            className="caselet-images"
-            src={expandCollapseChartGif}
-            alt="Expand Collapse Card"
-          /> */}
-        </section>
-
         <section className="section">
           <span className="text-block-row">
-            <span className="header-block">
-              <p className="caption-big">Solution: Flow Three</p>
-              <h3 className="sub-header">
-                Report Sharing and Email Notification
-              </h3>
-            </span>
+            <h3 className="sub-header">
+              Conclusion of second round of engineering pitch
+            </h3>
             <span className="single-col-text-block-sm">
-              <ul>
-                <li>
-                  <span className="emphasis">Report Sharing: </span> A key
-                  insight from a stand-up with the CEO led me to add a share
-                  report feature, which lets managers display a scoreboard for
-                  the team's daily targets.
-                </li>
-                <li>
-                  While presenting to engineering team I got to know that auto
-                  refresh intervals were a more efficient solution than a live
-                  refresh, as a constant refresh would be resource-heavy and
-                  strain the database.
-                </li>
-                <li>
-                  <span className="emphasis">Notifications: </span>My initial
-                  scope included both in-app and email notifications. To meet
-                  our launch goals, we focused on building just email
-                  notifications for now, with in-app notifications planned for a
-                  later phase.
-                </li>
-              </ul>
+              <p className="text-block">
+                I started Working solution by whiteboarding and mapping out the
+                feature and mapping things in the right place. I created
+                wireframes of our vision to showcase how the feature will work.
+              </p>
             </span>
           </span>
         </section>
 
+        <div className="break"></div>
         <section className="section">
-          <p className="caption">
-            Mockup - showcasing Shared Live Target Report dashboard in office
-            setting
-          </p>
-          {/* <img
-            className="caselet-images"
-            src={mockupLiveDashboardImg}
-            alt="Expand Collapse Card"
-          /> */}
+          <span className="text-block-row">
+            <h3 className="sub-header">Final Solution</h3>
+            <span className="single-col-text-block-sm">
+              <p className="text-block">
+                I started Working solution by whiteboarding and mapping out the
+                feature and mapping things in the right place. I created
+                wireframes of our vision to showcase how the feature will work.
+              </p>
+            </span>
+          </span>
         </section>
-
         <section className="section">
-          <p className="caption">
-            Final Design - How to turn on report sharing
-          </p>
-          {/* <img
+          <p className="caption">Purchasing Phone Number Flow</p>
+          <img
             className="caselet-images"
-            src={reportSharingGif}
-            alt="Final Design - How to turn on report sharing"
-          /> */}
+            src={purchaseNumberFinal}
+            alt="Purchasing a phone number"
+          />
         </section>
-
         <section className="section">
-          <p className="caption">
-            Mockup - showcasing Shared Live Target Report dashboard in office
-            setting
-          </p>
-          {/* <img
+          <p className="caption">How admins will assign phone number</p>
+          <img
             className="caselet-images"
-            src={sharedDashboardImg}
-            alt="Final Design - how the externally shared dashboard will look"
-          /> */}
+            src={assignNumberFinal}
+            alt="Purchasing a phone number"
+          />
         </section>
-
+        <section className="section">
+          <p className="caption">Missed Calls Notifications</p>
+          <img
+            className="caselet-images"
+            src={missedNotificationFinal}
+            alt="Purchasing a phone number"
+          />
+        </section>
         <div className="break"></div>
 
         <section className="section">
           <span className="text-block-row">
             <h3 className="sub-header">Project Outcomes</h3>
             <span className="single-col-text-block-sm">
-              <div className="achievement-banner">
-                <div className="icon-container">
-                  <i className="bi bi-trophy-fill xl-icon"></i>
-                </div>
-                <span className="content">
-                  <p className="achvmnt-header">BUSINESS IMPACT UNLOCKED</p>
-                  <p className="achvmnt-body">
-                    Contributed to a 100-seat deal and made "Target Reports" a
-                    key sales differentiator.
-                  </p>
-                </span>
-              </div>
               <p className="text-block">
                 The Target Reports module was a huge success, and now our sales
                 team is actively using it as a key differentiator in their
