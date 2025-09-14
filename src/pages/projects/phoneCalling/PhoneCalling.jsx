@@ -6,7 +6,9 @@ import coverImg from "./cover-phone-calling.jpg";
 import firstFlowImg from "./first-flow.jpg";
 import decoreImg from "./frames-decore.png";
 import firstSharesOne from "./first-shares-1.jpg";
-
+import firstSharesTwo from "./purchased-number.jpg";
+import firstSharesThree from "./assign-num-first.jpg";
+import firstSharesFour from "./ivr-setup.jpg";
 import secondFlowImg from "./second-flow.jpg";
 
 import purchaseNumberFinal from "./purchase-phone-number.gif";
@@ -22,8 +24,10 @@ function PhoneCalling() {
     duration: "Oct - Dec, 2024",
   };
   const firstWireframesImages = [
-    { url: firstSharesOne, title: "Final screens - navigate to Target KPIs" },
-    { url: decoreImg, title: "Final screens - create new target" },
+    { url: firstSharesOne, title: "displaying phone number market place" },
+    { url: firstSharesTwo, title: "displaying purchased phone numbers" },
+    { url: firstSharesThree, title: "displaying assign phone number modal" },
+    { url: firstSharesFour, title: "displaying IVR setup modal" },
   ];
   return (
     <>
@@ -215,7 +219,7 @@ function PhoneCalling() {
                 <tr>
                   <td className="td-dark">Marketplace</td>
                   <td className="td-dark">Recruitment Agencies</td>
-                  <td className="td-dark">To purchase phone number</td>
+                  <td className="td-dark">purchase phone number</td>
                 </tr>
                 <tr>
                   <td className="td-base">
@@ -223,7 +227,7 @@ function PhoneCalling() {
                   </td>
                   <td className="td-base">Recruitment Agencies</td>
                   <td className="td-base">
-                    To assign or unassign phone numbers to various teams,
+                    assign or unassign phone numbers to various teams,
                     individuals. Or, release unused phone numbers
                   </td>
                 </tr>
@@ -231,8 +235,16 @@ function PhoneCalling() {
                   <td className="td-dark">Incomming Call Settings</td>
                   <td className="td-dark">Recruitment Teams</td>
                   <td className="td-dark">
-                    To handle call forwarding when there is no one available to
+                    handle call forwarding when there is no one available to
                     pick up the call
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td-base">IVR Settings</td>
+                  <td className="td-base">Recruitment Teams</td>
+                  <td className="td-base">
+                    create IVR pipelines for certain phone numbers which lets
+                    caller select with whome they want to speak with.
                   </td>
                 </tr>
               </tbody>
@@ -303,6 +315,13 @@ function PhoneCalling() {
             src={secondFlowImg}
             alt="Team Performance report"
           />
+        </section>
+        <section className="section">
+          <p className="caption">
+            Wireframes for sharing the initial intention of the incomming call
+            feature and the comment and suggestions recived
+          </p>
+          <ImageSlider slides={firstWireframesImages} />
         </section>
         <section className="section">
           <span className="text-block-row">
