@@ -231,15 +231,9 @@ function PhoneCalling() {
                   <td className="td-dark">Incomming Call Settings</td>
                   <td className="td-dark">Recruitment Teams</td>
                   <td className="td-dark">
-                    To automatically handled missed calls
+                    To handle call forwarding when there is no one available to
+                    pick up the call
                   </td>
-                </tr>
-                <tr>
-                  <td className="td-base">
-                    Call Routing Settings and Interactive Voice Response(IVR)
-                  </td>
-                  <td className="td-base">Recruitment Teams</td>
-                  <td className="td-base">To handle call forwarding</td>
                 </tr>
               </tbody>
             </table>
@@ -335,6 +329,53 @@ function PhoneCalling() {
                 feature and mapping things in the right place. I created
                 wireframes of our vision to showcase how the feature will work.
               </p>
+            </span>
+          </span>
+        </section>
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Updated Sub-Hypothesis</h3>
+            <span className="single-col-text-block-sm">
+              <table>
+                <thead>
+                  <tr>
+                    <th>We will create</th>
+                    <th>For</th>
+                    <th>In order to</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="td-dark">Marketplace</td>
+                    <td className="td-dark">Recruitment Agencies</td>
+                    <td className="td-dark">To purchase phone number</td>
+                  </tr>
+                  <tr>
+                    <td className="td-base">
+                      Assign, Un-assign and Release functions
+                    </td>
+                    <td className="td-base">Recruitment Agencies</td>
+                    <td className="td-base">
+                      To assign or unassign phone numbers to various teams,
+                      individuals. Or, release unused phone numbers
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="td-dark">Incomming Call Settings</td>
+                    <td className="td-dark">Recruitment Teams</td>
+                    <td className="td-dark">
+                      To automatically handled missed calls
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="td-base">
+                      Call Routing Settings and Interactive Voice Response(IVR)
+                    </td>
+                    <td className="td-base">Recruitment Teams</td>
+                    <td className="td-base">To handle call forwarding</td>
+                  </tr>
+                </tbody>
+              </table>
             </span>
           </span>
         </section>
