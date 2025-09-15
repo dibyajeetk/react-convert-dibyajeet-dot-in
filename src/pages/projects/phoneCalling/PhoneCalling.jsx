@@ -9,7 +9,14 @@ import firstSharesOne from "./first-shares-1.jpg";
 import firstSharesTwo from "./purchased-number.jpg";
 import firstSharesThree from "./assign-num-first.jpg";
 import firstSharesFour from "./ivr-setup.jpg";
+
 import secondFlowImg from "./second-flow.jpg";
+import secondSharesOne from "./assign-number-2.jpg/";
+import secondSharesTwo from "./routing-rules-1.jpg/";
+import secondSharesThree from "./routing-rules-2.jpg/";
+import secondSharesFour from "./routing-rules-3.jpg/";
+import secondSharesFive from "./working-hours-whiteboard.jpg";
+import secondSharesSix from "./global-working-hours.jpg";
 
 import purchaseNumberFinal from "./purchase-phone-number.gif";
 import assignNumberFinal from "./assign-phone-number.gif";
@@ -28,6 +35,15 @@ function PhoneCalling() {
     { url: firstSharesTwo, title: "displaying purchased phone numbers" },
     { url: firstSharesThree, title: "displaying assign phone number modal" },
     { url: firstSharesFour, title: "displaying IVR setup modal" },
+  ];
+
+  const secondWireframeImages = [
+    { url: secondSharesOne, title: "displaying phone number market place" },
+    { url: secondSharesTwo, title: "displaying purchased phone numbers" },
+    { url: secondSharesThree, title: "displaying assign phone number modal" },
+    { url: secondSharesFour, title: "displaying IVR setup modal" },
+    { url: secondSharesFive, title: "displaying IVR setup modal" },
+    { url: secondSharesSix, title: "displaying IVR setup modal" },
   ];
   return (
     <>
@@ -321,18 +337,19 @@ function PhoneCalling() {
 
         <section className="section">
           <span className="text-block-row">
-            <h3 className="sub-header">Reworked Solution</h3>
+            <h3 className="sub-header">Expanding on the Vision</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                I started Working solution by whiteboarding and mapping out the
-                feature and mapping things in the right place. I created
-                wireframes of our vision to showcase how the feature will work.
+                After gathering feedback from our recent meetings, we moved into
+                the next phase of development. I've started building out the
+                functionality on top of our original wireframes and flows to
+                incorporate the new features and improvements.
               </p>
             </span>
           </span>
         </section>
         <section className="section">
-          <p className="caption">initial flow diagram for the feature</p>
+          <p className="caption">updated diagram of the feature</p>
           <img
             className="caselet-images"
             src={secondFlowImg}
@@ -341,21 +358,52 @@ function PhoneCalling() {
         </section>
         <section className="section">
           <p className="caption">
-            Wireframes for sharing the initial intention of the incomming call
-            feature and the comment and suggestions recived
+            Showcasing key updates to the existing wieframe, and introduction of
+            routing rules settings
           </p>
-          <ImageSlider slides={firstWireframesImages} />
+          <ImageSlider slides={secondWireframeImages} />
         </section>
         <section className="section">
           <span className="text-block-row">
-            <h3 className="sub-header">
-              Conclusion of second round of engineering pitch
-            </h3>
+            <h3 className="sub-header">Key Revisions and Decisions</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                I started Working solution by whiteboarding and mapping out the
-                feature and mapping things in the right place. I created
-                wireframes of our vision to showcase how the feature will work.
+                Following our initial meetings, I began building on the
+                wireframes and user flows while staying in close collaboration
+                with the Director and the engineering team. As I polished the UI
+                for a smooth development handover, the engineers analyzed the
+                wireframes and raised some critical points during a stand-up
+                meeting.
+              </p>
+              <p className="text-block">
+                Based on their analysis, we decided to make a significant
+                change:
+              </p>
+              <ul>
+                <li>
+                  <span className="emphasis">
+                    IVR and Call Forwarding were dropped:
+                  </span>
+                  The engineering team's analysis revealed that Twilio charges
+                  for every call, regardless of whether it's picked up. This
+                  introduced a risk of clients incurring unnecessary costs from
+                  spammers.
+                </li>
+                <li>
+                  <span className="emphasis">Launch timeline:</span>Given the
+                  engineering team's existing workload, building the full IVR
+                  and Call Forwarding features would have significantly delayed
+                  our planned Q2 2025 launch. The team also agreed that the
+                  feature, in its full scope, was an overkill for our immediate
+                  goals.
+                </li>
+              </ul>
+              <p className="text-block">
+                Given these insights, the product team made the strategic
+                decision to remove all routing rule settings, including the IVR
+                and call forwarding features, from this release to ensure we
+                could launch on time and avoid potential cost risks for our
+                clients.
               </p>
             </span>
           </span>
