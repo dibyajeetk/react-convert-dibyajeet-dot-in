@@ -410,18 +410,7 @@ function PhoneCalling() {
         </section>
 
         <div className="break"></div>
-        <section className="section">
-          <span className="text-block-row">
-            <h3 className="sub-header">Final Solution</h3>
-            <span className="single-col-text-block-sm">
-              <p className="text-block">
-                I started Working solution by whiteboarding and mapping out the
-                feature and mapping things in the right place. I created
-                wireframes of our vision to showcase how the feature will work.
-              </p>
-            </span>
-          </span>
-        </section>
+
         <section className="section">
           <span className="text-block-row">
             <h3 className="sub-header">Updated Sub-Hypothesis</h3>
@@ -451,21 +440,58 @@ function PhoneCalling() {
                     </td>
                   </tr>
                   <tr>
-                    <td className="td-dark">Incomming Call Settings</td>
+                    <td className="td-dark">
+                      Self-Configuration of Assigned Number
+                    </td>
                     <td className="td-dark">Recruitment Teams</td>
                     <td className="td-dark">
-                      To automatically handled missed calls
+                      Allow users to turn off incoming services on assigned
+                      numbers during off-hours.
                     </td>
                   </tr>
                   <tr>
-                    <td className="td-base">
-                      Call Routing Settings and Interactive Voice Response(IVR)
-                    </td>
+                    <td className="td-base">In-app Notifications</td>
                     <td className="td-base">Recruitment Teams</td>
-                    <td className="td-base">To handle call forwarding</td>
+                    <td className="td-base">
+                      Alert users of missed calls with timely notifications.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="td-dark">Incoming Call Widget</td>
+                    <td className="td-dark">Recruitment Teams</td>
+                    <td className="td-dark">
+                      Allow users to accept or decline incoming calls directly
+                      from their browser.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="td-base">Updated Call Logs</td>
+                    <td className="td-base">Recruitment Teams</td>
+                    <td className="td-base">
+                      Support and display incoming calls in the logs.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="td-dark">Recurring Payments Log</td>
+                    <td className="td-dark">Recruitment Teams</td>
+                    <td className="td-dark">
+                      Display a record of monthly charges for phone numbers.
+                    </td>
                   </tr>
                 </tbody>
               </table>
+            </span>
+          </span>
+        </section>
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Final Solution</h3>
+            <span className="single-col-text-block-sm">
+              <p className="text-block">
+                With the updated hypothesis now in place, we have officially
+                frozen the scope for this project and have begun building on
+                these key items to move toward a finalized solution.
+              </p>
             </span>
           </span>
         </section>
@@ -500,10 +526,18 @@ function PhoneCalling() {
             <h3 className="sub-header">Project Outcomes</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                The Target Reports module was a huge success, and now our sales
-                team is actively using it as a key differentiator in their
-                pitches. It really shows that we built something valuable that's
-                making real business impact.
+                We shipped the feature in December 2024, and it's now live for
+                all Recruit CRM clients. The biggest win? Our engineering team
+                is no longer manually setting up phone numbers for every client
+                request.
+              </p>
+              <p className="text-block">
+                The product and engineering teams were happy with the final
+                solution. We managed to balance user needs with some pretty
+                complex technical constraints around Twilio's API and cost
+                considerations. Plus, we smartly removed the risky features (IVR
+                and call forwarding) that would have delayed our launch and
+                potentially cost clients money from spam calls.
               </p>
             </span>
           </span>
@@ -516,24 +550,25 @@ function PhoneCalling() {
             <h3 className="sub-header">Takeaways</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                This project was a wild ride, and my first real taste of
-                building a complex product. I had to quickly learn to embrace a
-                fast-paced environment without the safety net of a design system
-                or a senior mentor.
+                Always loop in engineering early. What I thought would be a
+                3-week project turned into 10 weeks because we discovered
+                technical constraints late in the game.
               </p>
               <p className="text-block">
-                It was all about being an executionist and taking a proactive
-                approach. Since I wasn't able to have direct user interactions,
-                my weekly stand-ups with the CEO became crucial, helping me
-                build a strong understanding of our users' perspectives.
+                Sometimes the best design decision is saying no. When we
+                realized IVR and call forwarding could blow up costs and delay
+                our launch, cutting them was the right call.
               </p>
               <p className="text-block">
-                I learned that sometimes, a Lean UX process is the way to go.
-                It's tough for users to give solid feedback on something they
-                haven't seen, so it's better to build a real MVP and iterate.
-                The experience of painstakingly testing and learning user
-                behavior gave me a deep understanding of what our users really
-                need.
+                Collaboration became my design validation. Without a design
+                system or senior mentor, I had to rely heavily on daily product
+                stand-ups and engineering check-ins to validate my designs.
+              </p>
+              <p className="text-block">
+                Business impact and user impact go hand-in-hand. Every design
+                decision got filtered through: Will this reduce support tickets?
+                Will this free up engineering time? In B2B products, solving
+                business problems IS solving user problems.
               </p>
             </span>
           </span>
