@@ -255,12 +255,13 @@ function PhoneCalling() {
         <div className="break"></div>
         <section className="section">
           <span className="text-block-row">
-            <h3 className="sub-header">Initial wireframes</h3>
+            <h3 className="sub-header">Initial Design & Vision</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                I started Working solution by whiteboarding and mapping out the
-                feature and mapping things in the right place. I created
-                wireframes of our vision to showcase how the feature will work.
+                I kicked off the project by whiteboarding and mapping out the
+                new feature. After creating wireframes to bring our vision to
+                life, I shared them with the Director of Product and the
+                engineering team in a series of stand-up meetings.
               </p>
             </span>
           </span>
@@ -282,15 +283,37 @@ function PhoneCalling() {
         </section>
         <section className="section">
           <span className="text-block-row">
-            <h3 className="sub-header">
-              Conclusion of first rounds of engineering pitch
-            </h3>
+            <h3 className="sub-header">Key Updates and Next Steps</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                I started Working solution by whiteboarding and mapping out the
-                feature and mapping things in the right place. I created
-                wireframes of our vision to showcase how the feature will work.
+                After the meetings we got a list of changes and started to work
+                on those such as:
               </p>
+              <ul>
+                <li>
+                  <span className="emphasis">Caller ID-based routing:</span>{" "}
+                  We're adding a new rule for VIPs to ensure their calls are
+                  routed correctly.
+                </li>
+                <li>
+                  <span className="emphasis">Time-based routing:</span> This
+                  will allow calls to be forwarded or play a specific message
+                  when people are on leave, during non-working hours, or on
+                  weekends.
+                </li>
+                <li>
+                  <span className="emphasis">Removed MMS and Fax: </span> Since
+                  Recruit CRM doesn't support these, we're hiding them from the
+                  Marketplace search and sort tools for a cleaner UI.
+                </li>
+                <li>
+                  <span className="emphasis">Credit Balance Banner: </span>
+                  To make it easier for users to manage their accounts, we're
+                  adding a banner to the Marketplace page that displays their
+                  current credit balance. It will include a "Purchase More"
+                  button that links directly to the billing section.
+                </li>
+              </ul>
             </span>
           </span>
         </section>
