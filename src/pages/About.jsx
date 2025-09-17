@@ -5,6 +5,7 @@ import displayPhotoImg from "../../src/assets/display-photo.jpg";
 import motoImgA from "../../src/assets/moto-one.jpg";
 import motoImgB from "../../src/assets/moto-two.jpg";
 import motoImgC from "../../src/assets/moto-three.jpg";
+import resume from "../../src/assets/resume.pdf";
 
 function About() {
   return (
@@ -34,7 +35,11 @@ function About() {
             ux.dibyajeet@gmail.com
           </a>
           <div className="buttons-container">
-            <a href="http://" className="about-link">
+            <a
+              href={resume}
+              className="about-link"
+              download="Dibyajeet_Kirttania_Resume.pdf"
+            >
               <i className="bi bi-box-arrow-in-down"></i> resume
             </a>
             <a
