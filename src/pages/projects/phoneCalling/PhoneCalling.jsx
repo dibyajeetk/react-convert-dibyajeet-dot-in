@@ -21,6 +21,10 @@ import secondSharesSix from "./global-working-hours.jpg";
 import purchaseNumberFinal from "./purchase-phone-number.gif";
 import assignNumberFinal from "./assign-phone-number.gif";
 import missedNotificationFinal from "./missed-notification.gif";
+import callLogsFinal from "./call-log.gif";
+import recurringPaymentFinal from "./recurring-payment.jpg";
+import selfConfigarationFinal from "./self-configaration-number.gif";
+import incommingCallWidgetFinal from "./incomming-call-widget.gif";
 
 function PhoneCalling() {
   const projectData = {
@@ -516,6 +520,47 @@ function PhoneCalling() {
           <img
             className="caselet-images"
             src={missedNotificationFinal}
+            alt="Purchasing a phone number"
+          />
+        </section>
+        <section className="section">
+          <p className="caption">Recruit CRM call logs list view</p>
+          <img
+            className="caselet-images"
+            src={callLogsFinal}
+            alt="Purchasing a phone number"
+          />
+        </section>
+        <section className="section">
+          <p className="caption">
+            Recurring payments showcasing all the charges for calling related
+            feature
+          </p>
+          <img
+            className="caselet-images"
+            src={recurringPaymentFinal}
+            alt="Purchasing a phone number"
+          />
+        </section>
+        <section className="section">
+          <p className="caption">
+            When an admin assigns a phone number user can customize the
+            incomming call times according to their needs
+          </p>
+          <img
+            className="caselet-images"
+            src={selfConfigarationFinal}
+            alt="Purchasing a phone number"
+          />
+        </section>
+        <section className="section">
+          <p className="caption">
+            Showcasing how incomming call widget will look when someone calls
+            the user
+          </p>
+          <img
+            className="caselet-images"
+            src={incommingCallWidgetFinal}
             alt="Purchasing a phone number"
           />
         </section>
