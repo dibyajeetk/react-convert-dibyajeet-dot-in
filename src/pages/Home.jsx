@@ -5,9 +5,18 @@ import { Link } from "react-router-dom";
 import heroImageSvg from "../../src/assets/hero-image.svg";
 import TargetReportCover from "./projects/targetReport/cover.jpg";
 import PhoneCallingCover from "./projects/phoneCalling/cover-phone-calling.jpg";
+import DesignSystemCover from "./projects/designSystem/design-system-cover.jpg";
 
 function Home() {
   const projects = [
+    // {
+    //   id: 1,
+    //   title: "Redesigning Recruit CRM",
+    //   desc: "A UX Case Study on Building a Professional and Intuitive Design System",
+    //   tags: ["Visual Design", "Conceptual"],
+    //   coverImage: DesignSystemCover,
+    //   path: "/rcrm-design-system",
+    // },
     {
       id: 1,
       title: "Incomming Calls and Phone Number Purchase - for Recruit CRM",
