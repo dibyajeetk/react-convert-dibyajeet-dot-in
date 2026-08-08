@@ -5,18 +5,26 @@ import { Link } from "react-router-dom";
 import heroImageSvg from "../../src/assets/hero-image.svg";
 import TargetReportCover from "./projects/targetReport/cover.jpg";
 import PhoneCallingCover from "./projects/phoneCalling/cover-phone-calling.jpg";
-import SyncUpCover from "./projects/syncUp/design-system-cover.jpg";
+import SyncUpCover from "./projects/syncUp/task-management-cover.jpg";
 
 function Home() {
   const projects = [
     // {
     //   id: 1,
-    //   title: "SyncUp",
-    //   desc: "Task management app for the power users.",
-    //   tags: ["Visual Design", "Conceptual", "Ui design"],
+    //   title: "Kanban Board - Design & Dev Prototype",
+    //   desc: "A live Kanban Board Interactive Prototype created in HTML, JavaScript and CSS",
+    //   tags: ["Visual Design", "Frontend Working Prototype", "Ui design"],
     //   coverImage: SyncUpCover,
     //   path: "/sync-up",
     // },
+    {
+      id: 1,
+      title: "SyncUp",
+      desc: "Task management app for the power users.",
+      tags: ["Visual Design", "Conceptual", "Ui design"],
+      coverImage: SyncUpCover,
+      path: "/sync-up",
+    },
     {
       id: 2,
       title: "Incomming Calls and Phone Number Purchase - for Recruit CRM",

@@ -3,16 +3,12 @@ import ImageSlider from "../../../components/ImageSlider";
 import "../../../css/Projects.css";
 import ProjectHighlites from "../../../components/ProjectHighlights";
 import coverImg from "./task-management-cover.jpg";
-import persona from "./persona.jpg";
-import designSystemOne from "./design-system-1.jpg";
-import designSystemTwo from "./design-system-2.jpg";
 
 function SyncUp() {
   const projectData = {
     name: "SyncUp - Task Management",
     description: "Designing task management interface for power users",
     duration: "3 Days (March, 2025)",
-    role: "UI and UX designer",
   };
   return (
     <>
@@ -33,7 +29,7 @@ function SyncUp() {
         <section className="section">
           <span className="single-col-text-block">
             <span className="text-block-row">
-              <h3 className="sub-header">Introduction & Scope</h3>
+              <h3 className="sub-header">Introduction</h3>
               <p className="text-block">
                 To Design the task details page of a task managent web app in 3
                 days, that includes a "Micro Design System", "Add Tasks",
@@ -52,79 +48,6 @@ function SyncUp() {
               subtasks with minimal clicks and cognitive load?
             </p>
           </span>
-        </section>
-
-        <div className="break"></div>
-
-        <section className="section">
-          <span className="text-block-row">
-            <h3 className="sub-header">Proto Persona</h3>
-            <p className="text-block">
-              First step was to create this proto persona based on assumptions
-              to note down the needs of the apps target user.
-            </p>
-            <section className="section">
-              <p className="caption">
-                image - displaying proto persona: Maya user of syncUp
-              </p>
-              <img
-                className="caselet-images"
-                src={persona}
-                alt="Drag and drop Chart Cards"
-              />
-            </section>
-          </span>
-          <span className="text-block-row">
-            <h3 className="sub-header">Solution Hypothesis</h3>
-            <p className="text-block">
-              We believe that equipping SyncUp with inline editing, bulk actions
-              for managing tasks and subtasks, minimal-click action flows, and
-              instant real-time updates will significantly improve users'
-              operational efficiency and overall system experience because it
-              eliminates redundant navigation, speeds up list management, and
-              provides immediate visual feedback.
-            </p>
-            <section className="section"></section>
-          </span>
-        </section>
-
-        <div className="break"></div>
-
-        <section className="section">
-          <span className="single-col-text-block-sm">
-            <h3 className="sub-header">Design System</h3>
-            <p className="text-block">
-              "SyncUp" is a hypothetical product concept created for this case
-              study. The initial phase focused on building the project
-              scaffolding.
-            </p>
-            <p className="text-block">
-              To lay a scalable foundation, I engineered a micro design system
-              featuring standardized color palettes, typography hierarchies, and
-              foundational atomic components (buttons, input fields, dropdowns,
-              and status badges). To maximize modularity, each component
-              leverages component property slots and flexible instance swapping
-              to seamlessly compose atomic elements into custom, complex UI
-              patterns while maintaining complete visual consistency.
-            </p>
-            <section className="section"></section>
-          </span>
-          <section className="section">
-            <p className="caption">Design System: Foundations</p>
-            <img
-              className="caselet-images"
-              src={designSystemOne}
-              alt="Drag and drop Chart Cards"
-            />
-          </section>
-          <section className="section">
-            <p className="caption">Design System: Components</p>
-            <img
-              className="caselet-images"
-              src={designSystemTwo}
-              alt="Drag and drop Chart Cards"
-            />
-          </section>
         </section>
 
         <div className="break"></div>
