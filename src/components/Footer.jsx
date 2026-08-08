@@ -33,9 +33,9 @@ function Footer() {
         </span>
         <span className="footer-group">
           <p className="footer-small-headers">
-            &copy; 2025 Dibyajeet Kirttania, all rights reserved.
+            &copy; 2026 Dibyajeet Kirttania, all rights reserved.
           </p>
-          <p className="footer-copy">Last updated on: 02 September, 2025</p>
+          <p className="footer-copy">Last updated on: 08 August, 2026</p>
         </span>
       </div>
     </footer>

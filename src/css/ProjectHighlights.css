@@ -47,7 +47,7 @@
   }
 
   .project-info {
-    max-width: 960px;
+    width: 960px;
     margin-top: -2rem;
     border: 2px solid var(--border-color-primary);
     background-color: var(--surface-color-secondary);
