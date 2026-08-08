@@ -6,6 +6,12 @@ import coverImg from "./task-management-cover.jpg";
 import persona from "./persona.jpg";
 import designSystemOne from "./design-system-1.jpg";
 import designSystemTwo from "./design-system-2.jpg";
+import taskDetailScreen from "./task-details-screen.jpg";
+import addSubtaskFlow from "./add-subtask-flow.gif";
+import addComment from "./adding-comment.gif";
+import taskListPage from "./task-list-page.jpg";
+import overDueTask from "./over-due-screen.jpg";
+import blockedTask from "./blocked-task.jpg";
 
 function SyncUp() {
   const projectData = {
@@ -84,7 +90,6 @@ function SyncUp() {
               eliminates redundant navigation, speeds up list management, and
               provides immediate visual feedback.
             </p>
-            <section className="section"></section>
           </span>
         </section>
 
@@ -131,27 +136,105 @@ function SyncUp() {
 
         <section className="section">
           <span className="text-block-row">
-            <h3 className="sub-header">Takeaways</h3>
+            <h3 className="sub-header">Solution Screens</h3>
+            <p className="text-block">
+              According to the scope of this project this includes the task
+              details page, add sub-task flow and some edge case screens.
+            </p>
+          </span>
+        </section>
+        <section className="section">
+          <p className="caption">Screen Design: Task List Page</p>
+          <img
+            className="caselet-images"
+            src={taskListPage}
+            alt="Drag and drop Chart Cards"
+          />
+        </section>
+        <section className="section">
+          <p className="caption">Screen Design: Task Details Page</p>
+          <img
+            className="caselet-images"
+            src={taskDetailScreen}
+            alt="Drag and drop Chart Cards"
+          />
+        </section>
+        <section className="section">
+          <p className="caption">Flow: Adding a Sub task</p>
+          <img
+            className="caselet-images"
+            src={addSubtaskFlow}
+            alt="Drag and drop Chart Cards"
+          />
+        </section>
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Why Inline?</h3>
+
+            <p className="text-block">
+              1. Maya stays in the primary list view, maintaining visual
+              relationship between tasks and subtasks while completing fields.
+            </p>
+            <p className="text-block">
+              2. Inline expansion removes modal triggers, enabling quick
+              submission via the Enter key.
+            </p>
+            <p className="text-block">
+              3. The input form sits at the end of the subtask tree for
+              predictable, continuous scrolling on long lists.
+            </p>
+            <p className="text-block">
+              4. Direct inline feedback updates the list immediately, removing
+              the need for auxiliary toast notifications.
+            </p>
+          </span>
+        </section>
+
+        <section className="section">
+          <p className="caption">
+            Comms: Activities Section double down as the comment and
+            communication section.
+          </p>
+          <img
+            className="caselet-images"
+            src={addComment}
+            alt="Drag and drop Chart Cards"
+          />
+        </section>
+
+        <section className="section">
+          <p className="caption">Edge Case: Over Due Task</p>
+          <img
+            className="caselet-images"
+            src={overDueTask}
+            alt="Drag and drop Chart Cards"
+          />
+        </section>
+        <section className="section">
+          <p className="caption">
+            Edge Case: Blocked Task, this appears when an interdepent task is
+            not marked done. Hence, blocking the main task from marking done.
+          </p>
+          <img
+            className="caselet-images"
+            src={blockedTask}
+            alt="Drag and drop Chart Cards"
+          />
+        </section>
+
+        <div className="break"></div>
+
+        <section className="section">
+          <span className="text-block-row">
+            <h3 className="sub-header">Project Outcomes</h3>
             <span className="single-col-text-block-sm">
               <p className="text-block">
-                This project was a wild ride, and my first real taste of
-                building a complex product. I had to quickly learn to embrace a
-                fast-paced environment without the safety net of a design system
-                or a senior mentor.
-              </p>
-              <p className="text-block">
-                It was all about being an executionist and taking a proactive
-                approach. Since I wasn't able to have direct user interactions,
-                my weekly stand-ups with the CEO became crucial, helping me
-                build a strong understanding of our users' perspectives.
-              </p>
-              <p className="text-block">
-                I learned that sometimes, a Lean UX process is the way to go.
-                It's tough for users to give solid feedback on something they
-                haven't seen, so it's better to build a real MVP and iterate.
-                The experience of painstakingly testing and learning user
-                behavior gave me a deep understanding of what our users really
-                need.
+                What started as a self-imposed sprint to test execution speed
+                turned into a comprehensive study on friction reduction for
+                power users. By constraining the timeline, I focused strictly on
+                high-impact UX improvements proving that thoughtful, inline UI
+                patterns can eliminate modal overhead without sacrificing visual
+                structure or system scalability.
               </p>
             </span>
           </span>
