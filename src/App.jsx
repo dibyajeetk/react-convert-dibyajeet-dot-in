@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import TargetReport from "./pages/projects/targetReport/TargetReport";
 import PhoneCalling from "./pages/projects/phoneCalling/PhoneCalling";
 import SyncUp from "./pages/projects/syncUp/SyncUp";
+import KanbanDev from "./pages/projects/kanbanDev/kanban";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
@@ -21,6 +22,7 @@ function App() {
           <Route path="/target-report" element={<TargetReport />} />
           <Route path="/phone-calling" element={<PhoneCalling />} />
           <Route path="/sync-up" element={<SyncUp />} />
+          <Route path="/kanban" element={<KanbanDev />} />
         </Routes>
       </main>
       <Footer />

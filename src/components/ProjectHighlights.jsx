@@ -1,6 +1,6 @@
 import "../css/ProjectHighlights.css";
 
-function ProjectHighlites({ name, desc, role, duration }) {
+function ProjectHighlites({ name, desc, role, duration, stacks }) {
   return (
     <div className="project-info">
       <h1>{name}</h1>
@@ -17,6 +17,10 @@ function ProjectHighlites({ name, desc, role, duration }) {
           <span>
             <p className="strong-text">Duration</p>
             <p>{duration}</p>
+          </span>
+          <span>
+            <p className="strong-text">Tools</p>
+            <p>{stacks}</p>
           </span>
         </span>
       </div>

@@ -6,27 +6,28 @@ import heroImageSvg from "../../src/assets/hero-image.svg";
 import TargetReportCover from "./projects/targetReport/cover.jpg";
 import PhoneCallingCover from "./projects/phoneCalling/cover-phone-calling.jpg";
 import SyncUpCover from "./projects/syncUp/task-management-cover.jpg";
+import kanbanCover from "./projects/kanbanDev/cover-kanban.jpg";
 
 function Home() {
   const projects = [
-    // {
-    //   id: 1,
-    //   title: "Kanban Board - Design & Dev Prototype",
-    //   desc: "A live Kanban Board Interactive Prototype created in HTML, JavaScript and CSS",
-    //   tags: ["Visual Design", "Frontend Working Prototype", "Ui design"],
-    //   coverImage: SyncUpCover,
-    //   path: "/sync-up",
-    // },
     {
       id: 1,
+      title: "Interactive Kanban Board",
+      desc: "A code-first prototyping study, bridging Figma design tokens with actual browser rendering to eliminate visual drift and test drag-and-drop interactions.",
+      tags: ["Frontend Working Prototype", "Ui design", "Self-Initiated"],
+      coverImage: kanbanCover,
+      path: "/kanban",
+    },
+    {
+      id: 2,
       title: "SyncUp",
       desc: "Task management app for the power users.",
-      tags: ["Visual Design", "Conceptual", "Ui design"],
+      tags: ["Visual Design", "Self-Initiated", "Ui design"],
       coverImage: SyncUpCover,
       path: "/sync-up",
     },
     {
-      id: 2,
+      id: 3,
       title: "Incomming Calls and Phone Number Purchase - for Recruit CRM",
       desc: "A scalable two-way calling system that empowered users to manage their own virtual numbers",
       tags: ["Product Design", "Live Project"],
@@ -34,7 +35,7 @@ function Home() {
       path: "/phone-calling",
     },
     {
-      id: 3,
+      id: 4,
       title: "Target Report - for Recruit CRM",
       desc: "A comprehensive Report module for Recruitment Leaders to assess productivity.",
       tags: ["Product Design", "Live Project"],
